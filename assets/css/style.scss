@@ -1,0 +1,19 @@
+---
+---
+
+@import "jekyll-theme-cayman";
+
+/* Wider content area */
+.main-content {
+  max-width: 70rem;
+}
+
+/* Make tables full width and styled */
+table {
+  width: 100%;
+}
+
+/* Better readability */
+p, li {
+  line-height: 1.7;
+}
