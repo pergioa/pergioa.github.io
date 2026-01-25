@@ -323,4 +323,4 @@ PLACE HOLDER TO TEST LAYOUT OF THE PAGE
 
 ---
 
-*This case study was created as part of SOEN 357 at Concorid University.*
+*This case study was created as part of SOEN 357 at Concordia University.*
