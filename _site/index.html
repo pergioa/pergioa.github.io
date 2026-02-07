@@ -25,7 +25,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="/assets/css/style.css?v=c89b7a8f55052a4b1cd5c63a1da1c12c66d101ab">
+    <link rel="stylesheet" href="/assets/css/style.css?v=9a0f7ddbf1ceac350ad922b43ea7d05eaf0bafc7">
     <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
 
 <!-- Setup Google Analytics -->
@@ -61,11 +61,13 @@
 
 <h2 id="project-overview">Project Overview</h2>
 
-<p>A mobile app designed to help individuals with chronic health conditions manage their medications and doctor appointments. The app allows users to set reminders, track medication usage, and communicate with healthcare professionals.</p>
+<p>A mobile app designed to help individuals with managing their intake of medicaments or to set reminders for their medical appointments. The app is also meant to help users find all related information to their medicaments and medical appointments in one place through their respective events</p>
 
 <h3 id="problem-statement">Problem Statement</h3>
 
-<p>THIS IS A WORK IN PROGESS</p>
+<p>People with chronic conditions often juggle medications, appointments, and doctor communication while trying to live their everyday lives. Forgetfulness, disorganization, and poor coordination can negatively affect their health outcomes.</p>
+
+<p>Our challenge is to design an intuitive mobile app that simplifies health management, improves adherence, and helps users feel in control of their care.</p>
 
 <h3 id="goals">Goals</h3>
 
@@ -82,18 +84,66 @@
 
 <h3 id="research-methods">Research Methods</h3>
 
-<h4 id="surveys">Surveys</h4>
-<p>[Describe survey approach - what questions where asked, how many respondents, key findings]</p>
+<p>For this project and article, I conducted a series of interviews with persons that are in the age range of 30 to 60 years old in order to get a wider view on what an application of this nature should be.</p>
+
+<p>For privacy reasons, and because the people that interviewed asked to remain anonymous, I will discuss their opinions and needs as a group and refer to them as “They” on this section of the article.</p>
 
 <h4 id="interviews">Interviews</h4>
-<p>[Describe interview process - who was interviewed, key insights gathered]</p>
+<p>The way that the interviews were handled, I the “researcher” for this project and product asked a set of simple questions when it comes to the user interface of the application and the User interactions.</p>
+
+<p>My main questions were the following:</p>
+
+<ol>
+  <li>How should reminders be set, per event, depending on the nature of the event, or should it be a global setting for all events?</li>
+  <li>How should the events be created?</li>
+  <li>How many details should the user be required to fill in?</li>
+  <li>What details should be required for each event type?</li>
+  <li>Should the app have extensive setting customization? or should it use the accessibility settings taken from the device?</li>
+  <li>What accessibility accommodations would they like to see in the application?</li>
+</ol>
+
+<p>Across the board participants had a consistent set of answers for each question.</p>
+
+<p>The needs and wants that I could take away from my interview are the following:</p>
+
+<ol>
+  <li>Reminders should all have the same behavior and should be set globally and only once.</li>
+  <li>Events should be created through the main page, which would then take the user to another page that is dedicated to the event creation.</li>
+  <li>The user should have a visual selector for the medication or appointment selection field, depending on which event type the user selects the following input fields will be displayed accordingly.</li>
+  <li>The required details are only the essential related to each kind of event.</li>
+  <li>The app should require very little to no setup.</li>
+  <li>The users want the input fields to be easy to understand and to fill up.</li>
+</ol>
 
 <h4 id="secondary-research">Secondary Research</h4>
-<p>[Findings from existing studies, competitor analysis, etc.]</p>
+<p>In order to get a better picture of the utility and need for an application of this nature I also took the liberty to look up existing studies related to what are the impacts of health companion applications for individuals that need to take medications on the regular.</p>
+
+<p>From what I found based on the following articles:</p>
+
+<ol>
+  <li>
+    <p>Iribarren S, Akande T, Kamp K, Barry D, Kader Y, Suelzer E
+Effectiveness of Mobile Apps to Promote Health and Manage Disease: Systematic Review and Meta-analysis of Randomized Controlled Trials
+JMIR Mhealth Uhealth 2021;9(1):e21563
+URL: https://mhealth.jmir.org/2021/1/e21563
+DOI: 10.2196/21563</p>
+  </li>
+  <li>
+    <p>Yihang Peng, MN, Han Wang, MM, Qin Fang, BS 949560838@qq.com, Liling Xie, BS, Lingzhi Shu, MN, Wenjing Sun, MN, and Qin Liu,
+Effectiveness of Mobile Applications on Medication Adherence in Adults with Chronic Diseases: A Systematic Review and Meta-Analysis
+Journal of Managed Care &amp; Specialty Pharmacy Volume 26, Number 4
+URL: https://www.jmcp.org/doi/10.18553/jmcp.2020.26.4.550
+DOI: 10.18553/jmcp.2020.26.4.550</p>
+  </li>
+</ol>
+
+<p>Both of those articles explore the benefits of having a companion app to set reminders for medication. While they both express in their own way the need for further research, they did conclude that there is credible evidence that the use of a companion app such as the one for this mini-project has a meaningful impact on a user’s ability to adhere to their medication in the long term.</p>
+
+<p>Through the research that I conducted regarding existing articles on this matter I did come across a few more that for the needs of this article would not necessarily add more relevant information that the above mentioned ones. However I did see a recurring theme where they asked the same question multiple times. What are the features of a companion app that make it so users take their medication regularly at the right time? They would also ask a follow up question along the lines of, what new features could be added to the optimal health companion app?</p>
 
 <h3 id="key-research-findings">Key Research Findings</h3>
 
-<p>PLACE HOLDER TO TEST LAYOUT OF THE PAGE</p>
+<p>Following the interviews and secondary research, I have the following key findings that dictate the design of the application:</p>
 
 <table>
   <thead>
@@ -105,19 +155,24 @@
   </thead>
   <tbody>
     <tr>
-      <td>[Finding 1]</td>
-      <td>[What it means]</td>
-      <td>[How it affects design]</td>
+      <td>Global setting for reminders</td>
+      <td>This is done once at the first use and never changes unless the user wants to</td>
+      <td>Event creation page has one less field, main feature of the app is automated</td>
     </tr>
     <tr>
-      <td>[Finding 2]</td>
-      <td>[What it means]</td>
-      <td>[How it affects design]</td>
+      <td>Dedicated page for event creation</td>
+      <td>Users want a robust mechanism to add event details</td>
+      <td>Extra page for the application</td>
     </tr>
     <tr>
-      <td>[Finding 3]</td>
-      <td>[What it means]</td>
-      <td>[How it affects design]</td>
+      <td>Key UI elements should be images</td>
+      <td>UI should be simplified to accommodate users with lower cognitive capabilities</td>
+      <td>Make use of skeuomorphism</td>
+    </tr>
+    <tr>
+      <td>No dedicated page for event type</td>
+      <td>Users want to have all relevant information on the same page</td>
+      <td>No need for dedicated pages for each event type</td>
     </tr>
   </tbody>
 </table>
@@ -128,7 +183,7 @@
 
 <p>PLACE HOLDER TO TEST LAYOUT OF THE PAGE</p>
 
-<h3 id="persona-1-name">Persona 1: [Name]</h3>
+<h3 id="persona-1-maria-santos">Persona 1: Maria Santos</h3>
 
 <p><img src="assets/images/personas/persona1.png" alt="Persona 1" /></p>
 
@@ -142,40 +197,48 @@
   <tbody>
     <tr>
       <td><strong>Age</strong></td>
-      <td>[Age]</td>
+      <td>54</td>
     </tr>
     <tr>
       <td><strong>Occupation</strong></td>
-      <td>[Job]</td>
+      <td>Elementary School Teacher</td>
     </tr>
     <tr>
       <td><strong>Health Condition</strong></td>
-      <td>[Condition]</td>
+      <td>Type 2 Diabetes and Hypertension</td>
     </tr>
     <tr>
       <td><strong>Tech Comfort</strong></td>
-      <td>[Level]</td>
+      <td>Low to Moderate: uses her phone mainly for calls, messaging, and basic apps</td>
     </tr>
   </tbody>
 </table>
 
 <p><strong>Goals:</strong></p>
 <ul>
-  <li>[Goal 1]</li>
-  <li>[Goal 2]</li>
+  <li>Keep track of her daily medications (metformin, blood pressure pills) without having to memorize times or doses</li>
+  <li>Have a single place to see upcoming doctor appointments so she never misses a check-up</li>
+  <li>Spend as little time as possible setting up the app so she can focus on her day</li>
+</ul>
+
+<p><strong>Motivations:</strong></p>
+<ul>
+  <li>After missing a dose of her blood pressure medication and experiencing dizziness at work, Maria wants a reliable system that keeps her on track</li>
+  <li>She values simplicity, she does not want to learn a complicated app; she wants something that “just works” after a quick setup</li>
 </ul>
 
 <p><strong>Pain Points:</strong></p>
 <ul>
-  <li>[Pain point 1]</li>
-  <li>[Pain point 2]</li>
+  <li>She currently relies on handwritten notes and memory to manage her medications, which leads to missed doses especially during busy school days</li>
+  <li>Coordinating appointments across multiple specialists (endocrinologist, cardiologist, family doctor) is confusing and she has double-booked in the past</li>
+  <li>Apps she has tried before required too much setup and had cluttered interfaces that overwhelmed her</li>
 </ul>
 
-<p><strong>Quote:</strong> <em>“[A quote that captures their perspective]”</em></p>
+<p><strong>Quote:</strong> <em>“I just want something simple that reminds me to take my pills and tells me when my next appointment is, I don’t need all the bells and whistles.”</em></p>
 
 <hr />
 
-<h3 id="persona-2-name">Persona 2: [Name]</h3>
+<h3 id="persona-2-david-chen">Persona 2: David Chen</h3>
 
 <p><img src="assets/images/personas/persona2.png" alt="Persona 2" /></p>
 
@@ -189,36 +252,44 @@
   <tbody>
     <tr>
       <td><strong>Age</strong></td>
-      <td>[Age]</td>
+      <td>37</td>
     </tr>
     <tr>
       <td><strong>Occupation</strong></td>
-      <td>[Job]</td>
+      <td>Software Project Manager</td>
     </tr>
     <tr>
       <td><strong>Health Condition</strong></td>
-      <td>[Condition]</td>
+      <td>Asthma and Generalized Anxiety Disorder</td>
     </tr>
     <tr>
       <td><strong>Tech Comfort</strong></td>
-      <td>[Level]</td>
+      <td>High: comfortable with technology and uses multiple productivity apps daily</td>
     </tr>
   </tbody>
 </table>
 
 <p><strong>Goals:</strong></p>
 <ul>
-  <li>[Goal 1]</li>
-  <li>[Goal 2]</li>
+  <li>Manage his daily anxiety medication and as-needed inhaler usage from one centralized app</li>
+  <li>Quickly create and review health-related events without navigating through multiple screens</li>
+  <li>Have visual, intuitive input fields that make event creation fast and error-free</li>
+</ul>
+
+<p><strong>Motivations:</strong></p>
+<ul>
+  <li>David’s busy work schedule means he often forgets to take his anxiety medication at the same time each day, leading to inconsistent symptom management</li>
+  <li>He wants to consolidate his health management into one app instead of juggling calendar reminders, pharmacy apps, and sticky notes</li>
 </ul>
 
 <p><strong>Pain Points:</strong></p>
 <ul>
-  <li>[Pain point 1]</li>
-  <li>[Pain point 2]</li>
+  <li>His current approach of using generic calendar reminders does not distinguish between medication events and appointment events, making it hard to see his health schedule at a glance</li>
+  <li>He finds it frustrating when apps require him to configure reminder settings for every single event rather than setting a global preference once</li>
+  <li>He wants to see all relevant details for an event on one page without being redirected to separate screens for different event types</li>
 </ul>
 
-<p><strong>Quote:</strong> <em>“[A quote that captures their perspective]”</em></p>
+<p><strong>Quote:</strong> <em>“I already manage a dozen tools for work, I need my health app to be the one thing I don’t have to think about configuring.”</em></p>
 
 <hr />
 
@@ -469,8 +540,8 @@
 <p>PLACE HOLDER TO TEST LAYOUT OF THE PAGE</p>
 
 <ul>
-  <li>[Link to survey questions]</li>
-  <li>[Link to interview scripts]</li>
+  <li><a href="https://www.jmcp.org/doi/10.18553/jmcp.2020.26.4.550">Article 1</a></li>
+  <li><a href="https://mhealth.jmir.org/2021/1/e21563">Article 2</a></li>
 </ul>
 
 <h3 id="all-wireframe-iterations">All Wireframe Iterations</h3>
@@ -487,7 +558,7 @@
 
 <hr />
 
-<p><em>This case study was created as part of SOEN 357 at Concorid University.</em></p>
+<p><em>This case study was created as part of SOEN 357 at Concordia University.</em></p>
 
 
       <footer class="site-footer">
