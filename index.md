@@ -9,7 +9,6 @@ title: Health Companion Super App - UX/UI Case Study
 **Author:** Sergio Abreo Alvarez
 **Date:** February 2025
 
----
 
 ## Project Overview
 
@@ -28,7 +27,6 @@ Our challenge is to design an intuitive mobile app that simplifies health manage
 - Enable communication with healthcare providers
 - Track health progress over time
 
----
 
 ## 1. User Research
 
@@ -93,8 +91,6 @@ Following the interviews and secondary research, I have the following key findin
 | Key UI elements should be images | UI should be simplified to accommodate users with lower cognitive capabilities | Make use of skeuomorphism |
 | No dedicated page for event type | Users want to have all relevant information on the same page | No need for dedicated pages for each event type |
 
----
-
 ## 2. User Personas
 
 PLACE HOLDER TO TEST LAYOUT OF THE PAGE
@@ -126,8 +122,6 @@ PLACE HOLDER TO TEST LAYOUT OF THE PAGE
 
 **Quote:** *"I just want something simple that reminds me to take my pills and tells me when my next appointment is, I don't need all the bells and whistles."*
 
----
-
 ### Persona 2: David Chen
 
 ![Persona 2](assets/images/personas/persona2.png)
@@ -154,8 +148,6 @@ PLACE HOLDER TO TEST LAYOUT OF THE PAGE
 - He wants to see all relevant details for an event on one page without being redirected to separate screens for different event types
 
 **Quote:** *"I already manage a dozen tools for work, I need my health app to be the one thing I don't have to think about configuring."*
-
----
 
 ## 3. User Journey Map
 
@@ -191,8 +183,6 @@ PLACE HOLDER TO TEST LAYOUT OF THE PAGE
 - **Pain Points:** [Challenges]
 - **Opportunities:** [Design opportunities]
 
----
-
 ## 4. Wireframes
 
 ### Low-Fidelity Wireframes
@@ -205,7 +195,6 @@ PLACE HOLDER TO TEST LAYOUT OF THE PAGE
 
 *Description: [Explain the key elements and their purpose]*
 
----
 
 #### Medication Reminder Screen
 
@@ -215,7 +204,6 @@ PLACE HOLDER TO TEST LAYOUT OF THE PAGE
 
 *Description: [Explain the key elements and their purpose]*
 
----
 
 #### Appointment Scheduling Screen
 
@@ -225,7 +213,6 @@ PLACE HOLDER TO TEST LAYOUT OF THE PAGE
 
 *Description: [Explain the key elements and their purpose]*
 
----
 
 #### Additional Screens
 
@@ -249,7 +236,6 @@ PLACE HOLDER TO TEST LAYOUT OF THE PAGE
 
 *What changed and why:* [Explain the evolution]
 
----
 
 ## 5. Prototype
 
@@ -280,7 +266,6 @@ PLACE HOLDER TO TEST LAYOUT OF THE PAGE
 3. User schedules appointment → Calendar view
 4. [Continue flow...]
 
----
 
 ## 6. Usability Testing
 
@@ -323,7 +308,6 @@ PLACE HOLDER TO TEST LAYOUT OF THE PAGE
 
 > *"[Direct quote from user testing]"* - Participant 2
 
----
 
 ## 7. Reflection
 
@@ -349,7 +333,6 @@ PLACE HOLDER TO TEST LAYOUT OF THE PAGE
 
 [Final thoughts on the project and the UX/UI design process]
 
----
 
 ## Appendix
 
@@ -372,6 +355,5 @@ PLACE HOLDER TO TEST LAYOUT OF THE PAGE
 
 [Detailed data if applicable]
 
----
 
 *This case study was created as part of SOEN 357 at Concordia University.*

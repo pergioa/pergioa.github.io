@@ -3,17 +3,135 @@
 
 @import "jekyll-theme-cayman";
 
+/* Typography and palette */
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Source+Sans+3:wght@400;500;600&display=swap");
+
+body {
+  font-family: "Source Sans 3", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  background: linear-gradient(180deg, #f5f7fb 0%, #eef2f7 100%);
+  color: #1a1f2b;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Fraunces", "Georgia", "Times New Roman", serif;
+  letter-spacing: 0.2px;
+}
+
+/* Page header refresh */
+.page-header {
+  background: radial-gradient(1200px 400px at 20% -20%, #7cc6ff 0%, rgba(124, 198, 255, 0) 60%),
+              linear-gradient(120deg, #0b3a66 0%, #1d6aa6 50%, #21a1b3 100%);
+  color: #f6fbff;
+  border-bottom: 6px solid rgba(255, 255, 255, 0.15);
+}
+
+.project-name {
+  letter-spacing: 0.6px;
+}
+
+.project-tagline {
+  color: #dbeeff;
+}
+
 /* Wider content area */
 .main-content {
   max-width: 70rem;
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 2.5rem 3rem;
+  box-shadow: 0 10px 28px rgba(19, 36, 60, 0.12);
+  margin-top: -2.5rem;
+  margin-bottom: 3rem;
 }
 
+
 /* Make tables full width and styled */
-table {
-  width: 100%;
+.main-content table {
+  width: auto;
+  max-width: 100%;
+  margin: 1.2rem auto;
+  display: inline-table;
+  table-layout: auto;
+  overflow: visible;
+  border-collapse: collapse;
+  background: #f8fafc;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 16px rgba(20, 30, 50, 0.08);
+}
+
+.main-content table th {
+  background: #1f4b7a;
+  color: #ffffff;
+  text-align: left;
+}
+
+.main-content table th, .main-content table td {
+  padding: 0.9rem 1rem;
+  border-bottom: 1px solid #e1e6ef;
+}
+
+.main-content table tr:nth-child(even) td {
+  background: #eef4fa;
 }
 
 /* Better readability */
 p, li {
   line-height: 1.7;
+}
+
+/* Section rhythm */
+.main-content h2 {
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 2px solid #edf1f6;
+}
+
+.main-content h3 {
+  margin-top: 2rem;
+  color: #1f4b7a;
+}
+
+/* Images */
+.main-content img {
+  display: block;
+  max-width: 100%;
+  border-radius: 14px;
+  box-shadow: 0 8px 18px rgba(10, 20, 40, 0.12);
+  margin: 1.2rem auto;
+}
+
+/* Quote styling */
+blockquote {
+  background: #f0f7ff;
+  border-left: 5px solid #4a90e2;
+  padding: 0.8rem 1.2rem;
+  border-radius: 10px;
+  color: #1b2a3d;
+}
+
+/* Links */
+a {
+  color: #1d6aa6;
+}
+
+a:hover {
+  color: #0b3a66;
+}
+
+/* Horizontal rule */
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(0,0,0,0) 0%, #cfd8e6 50%, rgba(0,0,0,0) 100%);
+  margin: 2rem 0;
+}
+
+@media (max-width: 800px) {
+  .main-content {
+    padding: 1.6rem 1.4rem;
+    border-radius: 14px;
+    margin-top: -1.6rem;
+  }
+
 }
