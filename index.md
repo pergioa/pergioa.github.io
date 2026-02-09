@@ -97,7 +97,7 @@ PLACE HOLDER TO TEST LAYOUT OF THE PAGE
 
 ### Persona 1: Maria Santos
 
-![Persona 1](assets/images/personas/persona1.png)
+![Persona 1](assets/images/personas/persona1.jpg)
 
 | Attribute | Details |
 |-----------|---------|
@@ -124,7 +124,7 @@ PLACE HOLDER TO TEST LAYOUT OF THE PAGE
 
 ### Persona 2: David Chen
 
-![Persona 2](assets/images/personas/persona2.png)
+<img src="assets/images/personas/persona2.avif" alt="Persona 2" width="300">
 
 | Attribute | Details |
 |-----------|---------|
@@ -133,21 +133,32 @@ PLACE HOLDER TO TEST LAYOUT OF THE PAGE
 | **Health Condition** | Asthma and Generalized Anxiety Disorder |
 | **Tech Comfort** | High: comfortable with technology and uses multiple productivity apps daily |
 
+### Persona 3: Chris Redfield
+
+<img src="assets/images/personas/persona3.jpg" alt="Persona 3" width="300">
+
+| Attribute | Details |
+|-----------|---------|
+| **Age** | 70 |
+| **Occupation** | Retired |
+| **Health Condition** | Depression |
+| **Tech Comfort** | Low: has a basic understanding of how to use a phone |
+
 **Goals:**
-- Manage his daily anxiety medication and as-needed inhaler usage from one centralized app
-- Quickly create and review health-related events without navigating through multiple screens
-- Have visual, intuitive input fields that make event creation fast and error-free
+- Manage his daily depression medication
+- Keep up with his treatment to get better
+- Have an easy to understand application
 
 **Motivations:**
-- David's busy work schedule means he often forgets to take his anxiety medication at the same time each day, leading to inconsistent symptom management
-- He wants to consolidate his health management into one app instead of juggling calendar reminders, pharmacy apps, and sticky notes
+- Since his wife died a few months back, Chris has been dealing with depression and struggled to take his medications on a regular basis
+- He wants to have a reminder that is hard to miss for his medications and routine appointments with the psychologist
 
 **Pain Points:**
-- His current approach of using generic calendar reminders does not distinguish between medication events and appointment events, making it hard to see his health schedule at a glance
-- He finds it frustrating when apps require him to configure reminder settings for every single event rather than setting a global preference once
-- He wants to see all relevant details for an event on one page without being redirected to separate screens for different event types
+- Due to his depression he has very little motivation to do anything which makes it easy for him to not take his depression medication
+- He finds technology hard to use and understand without the help of a younger individual, an intuitive design would allow him to use the application
+- He wants to have systematic reminders for all important events related to his medication and appointments in order to overcome his depression
 
-**Quote:** *"I already manage a dozen tools for work, I need my health app to be the one thing I don't have to think about configuring."*
+**Quote:** *"Since my wife died, I have struggled with depression. It has been difficult for me to keep up with my medication since most days I don't feel like doing anything and want to stay in bed."*
 
 ## 3. User Journey Map
 
@@ -156,32 +167,32 @@ PLACE HOLDER TO TEST LAYOUT OF THE PAGE
 ### Journey Stages
 
 #### Stage 1: Awareness
-- **Actions:** [What user does]
-- **Thoughts:** [What user thinks]
-- **Emotions:** [How user feels]
-- **Pain Points:** [Challenges]
-- **Opportunities:** [Design opportunities]
+- **Actions:** The user learns about the app through a doctor's recommendation, a family member's suggestion, or an app store search after missing a dose or forgetting an appointment
+- **Thoughts:** "I need something to help me stay on top of my medications and appointments, but will this app be easy enough for me to use?"
+- **Emotions:** Frustrated with current methods of tracking health tasks, but hopeful that a solution exists
+- **Pain Points:** Users like Maria rely on handwritten notes that get lost, David feels overwhelmed juggling multiple productivity tools, and Chris lacks the motivation and tech skills to search for a solution on his own
+- **Opportunities:** Clear and simple app store descriptions, accessibility-focused marketing, and a reassuring first impression that signals ease of use
 
 #### Stage 2: Onboarding
-- **Actions:** [What user does]
-- **Thoughts:** [What user thinks]
-- **Emotions:** [How user feels]
-- **Pain Points:** [Challenges]
-- **Opportunities:** [Design opportunities]
+- **Actions:** The user downloads the app, opens it for the first time, and is guided through a minimal setup process where they configure their global reminder preferences
+- **Thoughts:** "This setup is quick, I only need to set my reminder preferences once and I am ready to go"
+- **Emotions:** Relieved that the setup requires very little effort, cautiously optimistic about using the app going forward
+- **Pain Points:** Users with low tech comfort like Maria and Chris may hesitate at any screen that feels unfamiliar or asks for too much information upfront, while David may want to ensure the app integrates well with his existing routine
+- **Opportunities:** A one-screen onboarding flow with clear visual cues, large input fields, and a brief walkthrough that builds confidence without overwhelming the user
 
 #### Stage 3: Daily Use
-- **Actions:** [What user does]
-- **Thoughts:** [What user thinks]
-- **Emotions:** [How user feels]
-- **Pain Points:** [Challenges]
-- **Opportunities:** [Design opportunities]
+- **Actions:** The user receives a reminder notification, opens the app, confirms they took their medication, and occasionally checks upcoming appointments on the main screen
+- **Thoughts:** "The reminder went off right on time, let me mark my medication as taken so I can move on with my day"
+- **Emotions:** Confident and in control of their health routine, with a sense of accomplishment after confirming each dose
+- **Pain Points:** Chris may still struggle with motivation on difficult days and could dismiss a notification without acting on it, Maria may find it hard to respond during busy school hours, and David may need the reminder to cut through the noise of his many other app notifications
+- **Opportunities:** Persistent or escalating reminders that are hard to miss, a simple one-tap confirmation to mark a dose as taken, and a clear visual summary on the main screen that reinforces progress
 
 #### Stage 4: Appointment Booking
-- **Actions:** [What user does]
-- **Thoughts:** [What user thinks]
-- **Emotions:** [How user feels]
-- **Pain Points:** [Challenges]
-- **Opportunities:** [Design opportunities]
+- **Actions:** The user navigates to the event creation page from the main screen, selects the appointment event type, fills in the essential details using visual selectors, and saves the event
+- **Thoughts:** "I can see all my upcoming appointments in one place now, no more double-booking or forgetting which specialist I am seeing next"
+- **Emotions:** Organized and reassured that their appointments are tracked, less anxious about managing multiple healthcare providers
+- **Pain Points:** Maria has double-booked specialists in the past due to poor coordination, Chris needs the input fields to be straightforward and visually guided so he can complete them independently, and David wants the process to be efficient and not require redundant data entry
+- **Opportunities:** Visual selectors and skeuomorphic elements that simplify the input process, automatic conflict detection to prevent double-booking, and a unified calendar view that displays both medication and appointment events together
 
 ## 4. Wireframes
 

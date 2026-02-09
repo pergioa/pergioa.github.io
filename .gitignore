@@ -1,0 +1,3 @@
+.venv/
+.DS_Store
+assets/images/journey-maps/generate_journey_map.py
