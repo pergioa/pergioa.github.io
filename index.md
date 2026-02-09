@@ -3,10 +3,34 @@ layout: default
 title: Health Companion Super App - UX/UI Case Study
 ---
 
+<style>
+  img.persona {
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+  }
+  img.journey-map {
+    width: 100%;
+    max-width: 1100px;
+    height: auto;
+  }
+  img.wireframe, img.prototype {
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+  }
+  @media print {
+    img.persona { width: 200px; }
+    img.journey-map { width: 100%; max-width: 600px; }
+    img.wireframe, img.prototype { width: 200px; }
+    img { page-break-inside: avoid; }
+  }
+</style>
+
 # Health Companion Super App
 ## UX/UI Case Study
 
-**Author:** Sergio Abreo Alvarez
+**Author:** Sergio Abreo Alvarez ID:40274677
 **Date:** February 2025
 
 
@@ -97,7 +121,7 @@ PLACE HOLDER TO TEST LAYOUT OF THE PAGE
 
 ### Persona 1: Maria Santos
 
-![Persona 1](assets/images/personas/persona1.jpg)
+<img class="persona" src="assets/images/personas/persona1.jpg" alt="Persona 1">
 
 | Attribute | Details |
 |-----------|---------|
@@ -124,7 +148,7 @@ PLACE HOLDER TO TEST LAYOUT OF THE PAGE
 
 ### Persona 2: David Chen
 
-<img src="assets/images/personas/persona2.avif" alt="Persona 2" width="300">
+<img class="persona" src="assets/images/personas/persona2.jpg" alt="Persona 2">
 
 | Attribute | Details |
 |-----------|---------|
@@ -135,7 +159,7 @@ PLACE HOLDER TO TEST LAYOUT OF THE PAGE
 
 ### Persona 3: Chris Redfield
 
-<img src="assets/images/personas/persona3.jpg" alt="Persona 3" width="300">
+<img class="persona" src="assets/images/personas/persona3.jpg" alt="Persona 3">
 
 | Attribute | Details |
 |-----------|---------|
@@ -162,7 +186,7 @@ PLACE HOLDER TO TEST LAYOUT OF THE PAGE
 
 ## 3. User Journey Map
 
-![User Journey Map](assets/images/journey-maps/journey-map.png)
+<img class="journey-map" src="assets/images/journey-maps/journey-map.png" alt="User Journey Map">
 
 ### Journey Stages
 
@@ -200,28 +224,28 @@ PLACE HOLDER TO TEST LAYOUT OF THE PAGE
 
 #### Home Screen
 
-<img src="assets/images/wireframes/home-screen.png" alt="Home Screen Wireframe" width="300">
+<img class="wireframe" src="assets/images/wireframes/home-screen.png" alt="Home Screen Wireframe">
 
 *Description: On this page the user can see all their events for the day, go to settings, or make a new event*
 
 #### Appointment Scheduling Screen
 
 
-<img src="assets/images/wireframes/appointment-scheduling.png" alt="Appointment Scheduling Wireframe" width="300">
+<img class="wireframe" src="assets/images/wireframes/appointment-scheduling.png" alt="Appointment Scheduling Wireframe">
 
 *Description: On this page the user can make a new event for an appointment*
 
 #### Medication Scheduling Screen
 
 
-<img src="assets/images/wireframes/medication-scheduling.png" alt="Medication Scheduling Wireframe" width="300">
+<img class="wireframe" src="assets/images/wireframes/medication-scheduling.png" alt="Medication Scheduling Wireframe">
 
 *Description: On this page the user can make a new event for a medication*
 
 
 #### Additional Screens
 
-<img src="assets/images/wireframes/calendar.png" alt="Calendar view" width="300">
+<img class="wireframe" src="assets/images/wireframes/calendar.png" alt="Calendar view">
 
 *Description: On this page the user can view events based on a given date. This was added based on feedback that will be talked about more in depth in a later section*
 
@@ -236,42 +260,42 @@ The main changes are related to the size and styling of buttons and animations f
 
 #### Iteration 1 home page
 
-<img src="assets/images/prototypes/home-page.png" alt="home page" width="300">
+<img class="prototype" src="assets/images/prototypes/home-page.png" alt="home page">
 
 *Description: On this iteration we could not see a difference between events that had been completed or not*
 
 #### Iteration 2 home page
-<img src="assets/images/prototypes/home-page2.png" alt="home page updated" width="300">
+<img class="prototype" src="assets/images/prototypes/home-page2.png" alt="home page updated">
 
 *Description: This version groups the events into 2 sections, completed and not completed. The completed events also have a different styling to further set them apart*
 
 #### Iteration 1 Calendar view
-<img src="assets/images/prototypes/calendar.png" alt="Calendar view" width="300">
+<img class="prototype" src="assets/images/prototypes/calendar.png" alt="Calendar view">
 
 *Description: On this iteration we could not see a difference between events that had been completed or not like in the home page iteration 1*
 
 #### Iteration 2 Calendar view
-<img src="assets/images/prototypes/calendar2.png" alt="Calendar view updated" width="300">
+<img class="prototype" src="assets/images/prototypes/calendar2.png" alt="Calendar view updated">
 
 *Description: This version groups the events into 2 sections, completed and not completed. The completed events also have a different styling to further set them apart*
 
 #### Create medicament event
-<img src="assets/images/prototypes/medication.png" alt="medication" width="300">
+<img class="prototype" src="assets/images/prototypes/medication.png" alt="medication">
 
 *Description: This page saw small key changes over the course of this case study. Animations were added for the dynamic elements and the create button had its styling updated*
 
 #### Create appointment event
-<img src="assets/images/prototypes/appointment.png" alt="appointment" width="300">
+<img class="prototype" src="assets/images/prototypes/appointment.png" alt="appointment">
 
 *Description: This page saw small key changes over the course of this case study. Animations were added for the dynamic elements and the create button had its styling updated*
 
 #### Settings page
-<img src="assets/images/prototypes/settings.png" alt="settings" width="300">
+<img class="prototype" src="assets/images/prototypes/settings.png" alt="settings">
 
 *Description: This page saw no changes over the course of this case study*
 
 #### First usage page
-<img src="assets/images/prototypes/first-open.png" alt="first open" width="300">
+<img class="prototype" src="assets/images/prototypes/first-open.png" alt="first open">
 
 *Description: This page saw no changes over the course of this case study*
 

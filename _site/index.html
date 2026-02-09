@@ -25,7 +25,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="/assets/css/style.css?v=908b061c75c6afc6c91151eb1528b6534674c1af">
+    <link rel="stylesheet" href="/assets/css/style.css?v=029c0f5f7162893901d4a161c9c77bc6307f73f6">
     <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
 
 <!-- Setup Google Analytics -->
@@ -51,10 +51,34 @@
     </header>
 
     <main id="content" class="main-content" role="main">
-      <h1 id="health-companion-super-app">Health Companion Super App</h1>
+      <style>
+  img.persona {
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+  }
+  img.journey-map {
+    width: 100%;
+    max-width: 1100px;
+    height: auto;
+  }
+  img.wireframe, img.prototype {
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+  }
+  @media print {
+    img.persona { width: 200px; }
+    img.journey-map { width: 100%; max-width: 600px; }
+    img.wireframe, img.prototype { width: 200px; }
+    img { page-break-inside: avoid; }
+  }
+</style>
+
+<h1 id="health-companion-super-app">Health Companion Super App</h1>
 <h2 id="uxui-case-study">UX/UI Case Study</h2>
 
-<p><strong>Author:</strong> Sergio Abreo Alvarez
+<p><strong>Author:</strong> Sergio Abreo Alvarez ID:40274677
 <strong>Date:</strong> February 2025</p>
 
 <h2 id="project-overview">Project Overview</h2>
@@ -179,7 +203,7 @@ DOI: 10.18553/jmcp.2020.26.4.550</p>
 
 <h3 id="persona-1-maria-santos">Persona 1: Maria Santos</h3>
 
-<p><img src="/assets/images/personas/persona1.jpg" alt="Persona 1" /></p>
+<p><img class="persona" src="assets/images/personas/persona1.jpg" alt="Persona 1" /></p>
 
 <table>
   <thead>
@@ -232,7 +256,7 @@ DOI: 10.18553/jmcp.2020.26.4.550</p>
 
 <h3 id="persona-2-david-chen">Persona 2: David Chen</h3>
 
-<p><img src="assets/images/personas/persona2.avif" alt="Persona 2" width="300" /></p>
+<p><img class="persona" src="assets/images/personas/persona2.jpg" alt="Persona 2" /></p>
 
 <table>
   <thead>
@@ -263,7 +287,7 @@ DOI: 10.18553/jmcp.2020.26.4.550</p>
 
 <h3 id="persona-3-chris-redfield">Persona 3: Chris Redfield</h3>
 
-<p><img src="assets/images/personas/persona3.jpg" alt="Persona 3" width="300" /></p>
+<p><img class="persona" src="assets/images/personas/persona3.jpg" alt="Persona 3" /></p>
 
 <table>
   <thead>
@@ -316,7 +340,7 @@ DOI: 10.18553/jmcp.2020.26.4.550</p>
 
 <h2 id="3-user-journey-map">3. User Journey Map</h2>
 
-<p><img src="/assets/images/journey-maps/journey-map.png" alt="User Journey Map" /></p>
+<p><img class="journey-map" src="assets/images/journey-maps/journey-map.png" alt="User Journey Map" /></p>
 
 <h3 id="journey-stages">Journey Stages</h3>
 
@@ -362,25 +386,25 @@ DOI: 10.18553/jmcp.2020.26.4.550</p>
 
 <h4 id="home-screen">Home Screen</h4>
 
-<p><img src="assets/images/wireframes/home-screen.png" alt="Home Screen Wireframe" width="300" /></p>
+<p><img class="wireframe" src="assets/images/wireframes/home-screen.png" alt="Home Screen Wireframe" /></p>
 
 <p><em>Description: On this page the user can see all their events for the day, go to settings, or make a new event</em></p>
 
 <h4 id="appointment-scheduling-screen">Appointment Scheduling Screen</h4>
 
-<p><img src="assets/images/wireframes/appointment-scheduling.png" alt="Appointment Scheduling Wireframe" width="300" /></p>
+<p><img class="wireframe" src="assets/images/wireframes/appointment-scheduling.png" alt="Appointment Scheduling Wireframe" /></p>
 
 <p><em>Description: On this page the user can make a new event for an appointment</em></p>
 
 <h4 id="medication-scheduling-screen">Medication Scheduling Screen</h4>
 
-<p><img src="assets/images/wireframes/medication-scheduling.png" alt="Medication Scheduling Wireframe" width="300" /></p>
+<p><img class="wireframe" src="assets/images/wireframes/medication-scheduling.png" alt="Medication Scheduling Wireframe" /></p>
 
 <p><em>Description: On this page the user can make a new event for a medication</em></p>
 
 <h4 id="additional-screens">Additional Screens</h4>
 
-<p><img src="assets/images/wireframes/calendar.png" alt="Calendar view" width="300" /></p>
+<p><img class="wireframe" src="assets/images/wireframes/calendar.png" alt="Calendar view" /></p>
 
 <p><em>Description: On this page the user can view events based on a given date. This was added based on feedback that will be talked about more in depth in a later section</em></p>
 
@@ -394,42 +418,42 @@ DOI: 10.18553/jmcp.2020.26.4.550</p>
 
 <h4 id="iteration-1-home-page">Iteration 1 home page</h4>
 
-<p><img src="assets/images/prototypes/home-page.png" alt="home page" width="300" /></p>
+<p><img class="prototype" src="assets/images/prototypes/home-page.png" alt="home page" /></p>
 
 <p><em>Description: On this iteration we could not see a difference between events that had been completed or not</em></p>
 
 <h4 id="iteration-2-home-page">Iteration 2 home page</h4>
-<p><img src="assets/images/prototypes/home-page2.png" alt="home page updated" width="300" /></p>
+<p><img class="prototype" src="assets/images/prototypes/home-page2.png" alt="home page updated" /></p>
 
 <p><em>Description: This version groups the events into 2 sections, completed and not completed. The completed events also have a different styling to further set them apart</em></p>
 
 <h4 id="iteration-1-calendar-view">Iteration 1 Calendar view</h4>
-<p><img src="assets/images/prototypes/calendar.png" alt="Calendar view" width="300" /></p>
+<p><img class="prototype" src="assets/images/prototypes/calendar.png" alt="Calendar view" /></p>
 
 <p><em>Description: On this iteration we could not see a difference between events that had been completed or not like in the home page iteration 1</em></p>
 
 <h4 id="iteration-2-calendar-view">Iteration 2 Calendar view</h4>
-<p><img src="assets/images/prototypes/calendar2.png" alt="Calendar view updated" width="300" /></p>
+<p><img class="prototype" src="assets/images/prototypes/calendar2.png" alt="Calendar view updated" /></p>
 
 <p><em>Description: This version groups the events into 2 sections, completed and not completed. The completed events also have a different styling to further set them apart</em></p>
 
 <h4 id="create-medicament-event">Create medicament event</h4>
-<p><img src="assets/images/prototypes/medication.png" alt="medication" width="300" /></p>
+<p><img class="prototype" src="assets/images/prototypes/medication.png" alt="medication" /></p>
 
 <p><em>Description: This page saw small key changes over the course of this case study. Animations were added for the dynamic elements and the create button had its styling updated</em></p>
 
 <h4 id="create-appointment-event">Create appointment event</h4>
-<p><img src="assets/images/prototypes/appointment.png" alt="appointment" width="300" /></p>
+<p><img class="prototype" src="assets/images/prototypes/appointment.png" alt="appointment" /></p>
 
 <p><em>Description: This page saw small key changes over the course of this case study. Animations were added for the dynamic elements and the create button had its styling updated</em></p>
 
 <h4 id="settings-page">Settings page</h4>
-<p><img src="assets/images/prototypes/settings.png" alt="settings" width="300" /></p>
+<p><img class="prototype" src="assets/images/prototypes/settings.png" alt="settings" /></p>
 
 <p><em>Description: This page saw no changes over the course of this case study</em></p>
 
 <h4 id="first-usage-page">First usage page</h4>
-<p><img src="assets/images/prototypes/first-open.png" alt="first open" width="300" /></p>
+<p><img class="prototype" src="assets/images/prototypes/first-open.png" alt="first open" /></p>
 
 <p><em>Description: This page saw no changes over the course of this case study</em></p>
 
