@@ -371,6 +371,14 @@ The prototype demonstrates two primary user flows that represent the core functi
 4. Events for past days are set to either taken or not depending on what the user had done on any given day
 5. Events for futue days are set to upcoming since the could not have been marked as completed ahead or time
 
+**Flow 5: Event details**
+
+1. User taps on any of the events in either the home page or calendar view
+2. User is taken to the the event details page where he can see all related information to the event
+3. User can tap on the edit button on the top right to edit the event details
+4. User can tap on the delte event button to delte the event 
+5. User can mark the event as completed 
+
 
 ## 6. Usability Testing
 
