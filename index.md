@@ -32,6 +32,7 @@ title: Health Companion Super App - UX/UI Case Study
 
 **Author:** Sergio Abreo Alvarez ID:40274677
 **Date:** February 2025
+**Page URL:** https://pergioa.github.io/
 
 
 ## Project Overview
@@ -399,7 +400,7 @@ I also gained a deeper appreciation for secondary research. The academic article
 
 2. **Keeping the event creation flow on a single page:** The research findings indicated that users did not want separate pages for different event types, but fitting medication and appointment fields on the same page without clutter was a challenge. I addressed this by using conditional fields that only appear after the user selects an event type, keeping the page clean while still consolidating everything in one place.
 
-3. **Making reminders hard to miss without being intrusive:** Chris's persona highlighted that on low-motivation days, a notification can easily be dismissed and forgotten. At the same time, overly aggressive reminders could frustrate users like David who are already managing many notifications. I resolved this by designing a prominent one-tap confirmation button that appears when the app is opened from a reminder, making the action as frictionless as possible.
+3. **Making reminders hard to miss without being intrusive:** Chris's persona highlighted that on low-motivation days, a notification can easily be dismissed and forgotten. At the same time, overly aggressive reminders could frustrate users like David who are already managing many notifications. I resolved this by designing a prominent one-tap confirmation button that appears when the event is opened in order to get the full details.
 
 ### What I Would Do Differently
 
@@ -417,8 +418,6 @@ The research confirmed that health companion apps have a meaningful impact on me
 ## Appendix
 
 ### Research Materials
-
-PLACE HOLDER TO TEST LAYOUT OF THE PAGE
 
 - [Effectiveness of Mobile Applications on Medication Adherence in Adults with Chronic Diseases: A Systematic Review and Meta-Analysis](https://www.jmcp.org/doi/10.18553/jmcp.2020.26.4.550)
 - [Effectiveness of Mobile Apps to Promote Health and Manage Disease: Systematic Review and Meta-analysis of Randomized Controlled Trials](https://mhealth.jmir.org/2021/1/e21563)
