@@ -229,6 +229,8 @@ PLACE HOLDER TO TEST LAYOUT OF THE PAGE
 
 *Description: On this page the user can see all their events for the day, go to settings, or make a new event*
 
+Later on, the prototype this page had to also include calendar view button and a button to go back to the home page. The button for the event creation was moved on top of the navigation bar and made larger with meaningful text that lets the user know what the button does to accomodate for users with lower familiarity with technologie.
+
 #### Appointment Scheduling Screen
 
 
@@ -236,12 +238,16 @@ PLACE HOLDER TO TEST LAYOUT OF THE PAGE
 
 *Description: On this page the user can make a new event for an appointment*
 
+Later on, the prototype for this page was revised to have simpler feilds for elderly users to be able to use it without help. The save buttom was also made as big as possible for the user to be able to see it right away. The button also has different styling for when it can be used or not.
+
 #### Medication Scheduling Screen
 
 
 <img class="wireframe" src="assets/images/wireframes/medication-scheduling.png" alt="Medication Scheduling Wireframe">
 
 *Description: On this page the user can make a new event for a medication*
+
+This page had the same changes done than the one for appointment creation for the same reasons.
 
 
 #### Additional Screens
@@ -252,7 +258,7 @@ PLACE HOLDER TO TEST LAYOUT OF THE PAGE
 
 *What changed and why:* Additionally, a few more changes were done in order to make the app easier to use for all kinds of users. The specifics will be talked about in depth in a later section.
 
-The main changes are related to the size and styling of buttons and animations for dynamic elements.
+The main changes are related to the size and styling of buttons and animations for dynamic elements. More pages where added based on user feedback, no wirframes were done since there was a prototype already made with a better UI design that was well defined.
 
 
 ## 5. Prototype
@@ -312,12 +318,15 @@ The main changes are related to the size and styling of buttons and animations f
 
 **Angular prototype repo link:** 
 
+The prototype for this UI allows the reader to go through how the app would behave and lets ther user go through the main flows that are explained in the next section.
+The web app is mainly built for mobile devices so it is adviced that the reader goes through the README.md in order to be able to try it out on a mobile device in order to be able to see the page displayed in the same way as the pictures above.
+
 - [Repo to interactive prototype](https://github.com/pergioa/UI-MockUp-SOEN357)
 
 
 ### User Flow
 
-The prototype demonstrates two primary user flows that represent the core functionality of the application: creating a medication event and responding to a reminder.
+The prototype demonstrates two primary user flows that represent the core functionality of the application: creating a medication event and responding to a reminder. Then there is a flow realted to marking an event as done be it mecidation or apointement, a flow related to viewing the events on the calendar view and the flow to modify events by updating their information details or deleting the event.
 
 **Flow 1: First-Time Setup and Medication Event Creation**
 
@@ -330,7 +339,15 @@ The prototype demonstrates two primary user flows that represent the core functi
 7. User fills in the required fields and taps "Save"
 8. User is returned to the home screen where the new medication event now appears in the event list
 
-**Flow 2: Responding to a Medication Reminder**
+**Flow 2: Appointment Event Creation**
+
+1. User taps "Create Event" from the home screen
+2. User selects the appointment event type using the visual selector (calendar icon)
+3. The conditional input fields for appointments appear: doctor name, specialty, date, time, and location
+4. User fills in the required fields and taps "Save"
+5. User is returned to the home screen where both medication and appointment events are now visible in a unified list
+
+**Flow 3-a: Responding to a Medication Reminder**
 
 1. User receives an alert at the scheduled reminder time
 2. User taps the alert to acknowledge it, then taps on the current event
@@ -338,13 +355,21 @@ The prototype demonstrates two primary user flows that represent the core functi
 4. User taps the button to confirm the medication was taken
 5. The app records the confirmation. The user then manually goes back to the main menu using the "back arrow" button
 
-**Flow 3: Appointment Event Creation**
+**Flow 3-b: Responding to an appointment reminder**
 
-1. User taps "Create Event" from the home screen
-2. User selects the appointment event type using the visual selector (calendar icon)
-3. The conditional input fields for appointments appear: doctor name, specialty, date, time, and location
-4. User fills in the required fields and taps "Save"
-5. User is returned to the home screen where both medication and appointment events are now visible in a unified list
+1. User receives an alert at the scheduled reminder time
+2. User taps the alert to acknowledge it, then taps on the current event
+3. A large high-contrast "Mark as Attended" button is displayed prominently at the center of the screen
+4. User taps the button to confirm that he has attended his appointment
+5. The app records the confirmation. The user then manually goes back to the main menu using the "back arrow" button
+
+**Flow 4: Calendar view**
+
+1. User taps on the calendar icon on the navigation bar at the botton
+2. User is taken to the calendar view set to the current day
+3. User can see the calendar month and all the events of the given day that he's chosen to look at
+4. Events for past days are set to either taken or not depending on what the user had done on any given day
+5. Events for futue days are set to upcoming since the could not have been marked as completed ahead or time
 
 
 ## 6. Usability Testing
@@ -380,7 +405,7 @@ Feedback was collected using a think-aloud protocol where participants were aske
 | Issue Found | Severity | Solution Implemented |
 |-------------|----------|---------------------|
 | Older participants did not immediately recognize the event type selector as tappable | High | Increased the size of the visual selector icons and added a subtle border highlight to indicate interactivity |
-| One participant was confused by the conditional fields that appear after selecting an event type | Medium | Added a short animation when the fields appear and a label that reads "Fill in the details for your [event type]" to provide context |
+| One participant was confused by the conditional fields that appear after selecting an event type | Medium | Added a short animation to allow the users to see the dynamic components change in real time depending on the event that is selected |
 | Participants with low tech comfort took significantly longer on the appointment creation task | Low | Simplified the required information needed to create the event |
 | The confirmation action after a reminder notification was not prominent enough | High | Enlarged the "Mark as Taken" button and changed its color to a high-contrast blue so it stands out immediately upon opening the app |
 | There was no way to see events for following days | Medium | Implemented a calendar view to see events on any given day |

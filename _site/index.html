@@ -25,7 +25,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="/assets/css/style.css?v=029c0f5f7162893901d4a161c9c77bc6307f73f6">
+    <link rel="stylesheet" href="/assets/css/style.css?v=c0564c340d0af6fd0010773d518b438f5f30e38a">
     <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
 
 <!-- Setup Google Analytics -->
@@ -391,17 +391,23 @@ DOI: 10.18553/jmcp.2020.26.4.550</p>
 
 <p><em>Description: On this page the user can see all their events for the day, go to settings, or make a new event</em></p>
 
+<p>Later on, the prototype this page had to also include calendar view button and a button to go back to the home page. The button for the event creation was moved on top of the navigation bar and made larger with meaningful text that lets the user know what the button does to accomodate for users with lower familiarity with technologie.</p>
+
 <h4 id="appointment-scheduling-screen">Appointment Scheduling Screen</h4>
 
 <p><img class="wireframe" src="assets/images/wireframes/appointment-scheduling.png" alt="Appointment Scheduling Wireframe" /></p>
 
 <p><em>Description: On this page the user can make a new event for an appointment</em></p>
 
+<p>Later on, the prototype for this page was revised to have simpler feilds for elderly users to be able to use it without help. The save buttom was also made as big as possible for the user to be able to see it right away. The button also has different styling for when it can be used or not.</p>
+
 <h4 id="medication-scheduling-screen">Medication Scheduling Screen</h4>
 
 <p><img class="wireframe" src="assets/images/wireframes/medication-scheduling.png" alt="Medication Scheduling Wireframe" /></p>
 
 <p><em>Description: On this page the user can make a new event for a medication</em></p>
+
+<p>This page had the same changes done than the one for appointment creation for the same reasons.</p>
 
 <h4 id="additional-screens">Additional Screens</h4>
 
@@ -411,7 +417,7 @@ DOI: 10.18553/jmcp.2020.26.4.550</p>
 
 <p><em>What changed and why:</em> Additionally, a few more changes were done in order to make the app easier to use for all kinds of users. The specifics will be talked about in depth in a later section.</p>
 
-<p>The main changes are related to the size and styling of buttons and animations for dynamic elements.</p>
+<p>The main changes are related to the size and styling of buttons and animations for dynamic elements. More pages where added based on user feedback, no wirframes were done since there was a prototype already made with a better UI design that was well defined.</p>
 
 <h2 id="5-prototype">5. Prototype</h2>
 
@@ -470,13 +476,16 @@ DOI: 10.18553/jmcp.2020.26.4.550</p>
 
 <p><strong>Angular prototype repo link:</strong></p>
 
+<p>The prototype for this UI allows the reader to go through how the app would behave and lets ther user go through the main flows that are explained in the next section.
+The web app is mainly built for mobile devices so it is adviced that the reader goes through the README.md in order to be able to try it out on a mobile device in order to be able to see the page displayed in the same way as the pictures above.</p>
+
 <ul>
   <li><a href="https://github.com/pergioa/UI-MockUp-SOEN357">Repo to interactive prototype</a></li>
 </ul>
 
 <h3 id="user-flow">User Flow</h3>
 
-<p>The prototype demonstrates two primary user flows that represent the core functionality of the application: creating a medication event and responding to a reminder.</p>
+<p>The prototype demonstrates two primary user flows that represent the core functionality of the application: creating a medication event and responding to a reminder. Then there is a flow realted to marking an event as done be it mecidation or apointement, a flow related to viewing the events on the calendar view and the flow to modify events by updating their information details or deleting the event.</p>
 
 <p><strong>Flow 1: First-Time Setup and Medication Event Creation</strong></p>
 
@@ -491,7 +500,17 @@ DOI: 10.18553/jmcp.2020.26.4.550</p>
   <li>User is returned to the home screen where the new medication event now appears in the event list</li>
 </ol>
 
-<p><strong>Flow 2: Responding to a Medication Reminder</strong></p>
+<p><strong>Flow 2: Appointment Event Creation</strong></p>
+
+<ol>
+  <li>User taps “Create Event” from the home screen</li>
+  <li>User selects the appointment event type using the visual selector (calendar icon)</li>
+  <li>The conditional input fields for appointments appear: doctor name, specialty, date, time, and location</li>
+  <li>User fills in the required fields and taps “Save”</li>
+  <li>User is returned to the home screen where both medication and appointment events are now visible in a unified list</li>
+</ol>
+
+<p><strong>Flow 3-a: Responding to a Medication Reminder</strong></p>
 
 <ol>
   <li>User receives an alert at the scheduled reminder time</li>
@@ -501,14 +520,24 @@ DOI: 10.18553/jmcp.2020.26.4.550</p>
   <li>The app records the confirmation. The user then manually goes back to the main menu using the “back arrow” button</li>
 </ol>
 
-<p><strong>Flow 3: Appointment Event Creation</strong></p>
+<p><strong>Flow 3-b: Responding to an appointment reminder</strong></p>
 
 <ol>
-  <li>User taps “Create Event” from the home screen</li>
-  <li>User selects the appointment event type using the visual selector (calendar icon)</li>
-  <li>The conditional input fields for appointments appear: doctor name, specialty, date, time, and location</li>
-  <li>User fills in the required fields and taps “Save”</li>
-  <li>User is returned to the home screen where both medication and appointment events are now visible in a unified list</li>
+  <li>User receives an alert at the scheduled reminder time</li>
+  <li>User taps the alert to acknowledge it, then taps on the current event</li>
+  <li>A large high-contrast “Mark as Attended” button is displayed prominently at the center of the screen</li>
+  <li>User taps the button to confirm that he has attended his appointment</li>
+  <li>The app records the confirmation. The user then manually goes back to the main menu using the “back arrow” button</li>
+</ol>
+
+<p><strong>Flow 4: Calendar view</strong></p>
+
+<ol>
+  <li>User taps on the calendar icon on the navigation bar at the botton</li>
+  <li>User is taken to the calendar view set to the current day</li>
+  <li>User can see the calendar month and all the events of the given day that he’s chosen to look at</li>
+  <li>Events for past days are set to either taken or not depending on what the user had done on any given day</li>
+  <li>Events for futue days are set to upcoming since the could not have been marked as completed ahead or time</li>
 </ol>
 
 <h2 id="6-usability-testing">6. Usability Testing</h2>
@@ -564,7 +593,7 @@ DOI: 10.18553/jmcp.2020.26.4.550</p>
     <tr>
       <td>One participant was confused by the conditional fields that appear after selecting an event type</td>
       <td>Medium</td>
-      <td>Added a short animation when the fields appear and a label that reads “Fill in the details for your [event type]” to provide context</td>
+      <td>Added a short animation to allow the users to see the dynamic components change in real time depending on the event that is selected</td>
     </tr>
     <tr>
       <td>Participants with low tech comfort took significantly longer on the appointment creation task</td>
