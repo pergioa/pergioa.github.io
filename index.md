@@ -290,6 +290,16 @@ The main changes are related to the size and styling of buttons and animations f
 
 *Description: This page saw small key changes over the course of this case study. Animations were added for the dynamic elements and the create button had its styling updated*
 
+#### Appointment event details
+<img class="prototype" src="assets/images/prototypes/appointment-details.png" alt="appointment">
+
+*Description: This page saw small key changes over the course of this case study. Copy, Call, Map and Email buttons were added to allow user to quickly perform each action*
+
+#### Medication event details
+<img class="prototype" src="assets/images/prototypes/medicament-details.png" alt="appointment">
+
+*Description: This page saw no major changes*
+
 #### Settings page
 <img class="prototype" src="assets/images/prototypes/settings.png" alt="settings">
 
