@@ -455,7 +455,7 @@ I also learned more about the pitfall of these kind of applications and what hel
 
 ### What I Would Do Differently
 
-If I were to start this project over, I would recruit a larger and more diverse group of participants for both the initial interviews and the usability testing. Five participants provided valuable insights, but a larger sample would have increased confidence in the findings and potentially revealed edge cases that were missed. I would also conduct a second round of usability testing after implementing the changes from the first round to verify that the solutions actually resolved the identified issues rather than introducing new ones.
+If I were to start this project over, I would recruit a larger and more diverse group of participants for both the initial interviews and the usability testing. Five participants provided valuable insights, but a larger sample would have increased confidence in the findings and potentially revealed edge cases that were missed. If I had more time and less coureses and projects to keep up with I would then make more usability test runs to make sure that I iron out my revisions and manage to fine tune the experinece as much as possible to cater to my target audience.
 
 Additionally, I would explore accessibility features more thoroughly from the start. While the current design accounts for low tech comfort through visual simplicity and large interactive elements, I did not deeply investigate accommodations for users with visual impairments, motor difficulties, or other accessibility needs beyond cognitive load. Integrating accessibility testing tools and consulting established guidelines such as WCAG earlier in the process would have resulted in a more inclusive design.
 
