@@ -439,11 +439,11 @@ The following table shows the key issues that I found during the user test runs.
 
 ### What I Learned
 
-This project reinforced how important it is to design with real users in mind rather than relying on assumptions. The interviews and persona development revealed that simplicity is not just a preference but a necessity for users like Maria and Chris, who would abandon an app the moment it feels overwhelming. I learned that a single design decision, such as making reminders a global one-time setting instead of a per-event configuration, can drastically reduce the cognitive load on the user and make the difference between an app that gets used daily and one that gets uninstalled after the first session.
+This project rienforced how important it is to design an application with the target demographic in mind in order to truly meet their needs when it comes to the features implement on the application. For instance in the case of users that would be aligened with my personas such as Maria and Chris where the UI has to be simple to understand and streamline all the interactions by giving them solid visual helpers such as the icons that represent real life objects so they can understand what they are doing or what to tap based on what they need.
 
-The usability testing phase was particularly eye-opening. Watching participants interact with the prototype in real time exposed issues that I would not have caught on my own, such as the event type selector not looking tappable to older users. This experience taught me that no amount of internal review can replace observing actual users as they navigate a design. The think-aloud protocol gave me direct access to user thought processes and helped me understand not just what was going wrong but why.
+The usability testing was also a very eye openeing first experience because it further rienforced that I need to ask the real users what they want and need, even if I had though that from my research I had solid personnas there were a few things that I had missed for instance what I would deem as obvious for other people who know less about technologie in genearl might be puzzeling. Having asked real users to test drive the app that I had helped me fine tune the experience more towards the user than to my assumptions.
 
-I also gained a deeper appreciation for secondary research. The academic articles I reviewed confirmed that companion apps do have a measurable impact on medication adherence, which validated the purpose of this project and gave me confidence that the problem I was solving is both real and meaningful.
+I also learned more about the pitfall of these kind of applications and what helps them be successful by reading research articles on this subject.
 
 ### Challenges Encountered
 
