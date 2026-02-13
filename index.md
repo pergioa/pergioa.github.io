@@ -461,9 +461,9 @@ Additionally, I would explore accessibility features more thoroughly from the st
 
 ### Conclusion
 
-The Health Companion Super App case study demonstrates that a user-centered design process, grounded in real interviews, persona development, and iterative usability testing, leads to a product that genuinely addresses the needs of its target audience. By prioritizing simplicity, minimizing setup, and using visual cues to guide interaction, the app is positioned to help individuals with chronic conditions stay on top of their medications and appointments without adding complexity to their daily lives.
+The Health Companion Super App case study demonstrates that a user-centered design process, grounded in real interviews, persona development, and iterative usability testing, leads to a product that  addresses the needs of its target audience rather than the developers assumptions of it. By prioritizing simplicity, minimizing setup, and using visual cues to guide interaction, the app is positioned to help individuals with chronic conditions stay on top of their medications and appointments without adding complexity to their daily lives.
 
-The research confirmed that health companion apps have a meaningful impact on medication adherence, and the design decisions made throughout this project were directly informed by what users expressed they needed. While there is room for further refinement, particularly around accessibility and broader testing, the foundation built through this UX/UI process provides a strong starting point for a product that could make a real difference in people's health outcomes.
+The research confirmed that health companion apps have a meaningful impact on medication adherence and the design decisions made throughout this project were directly informed by what users expressed they needed. While there is room for further refinement, particularly around accessibility and more extensive usability testing, the foundation built through this UX/UI process provides a strong starting point for a product that could make a real difference in people's health outcomes.
 
 
 ## Appendix
