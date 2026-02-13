@@ -30,7 +30,7 @@ title: Health Companion Super App - UX/UI Case Study
 # Health Companion Super App
 ## UX/UI Case Study
 
-**Author:** Sergio Abreo Alvarez ID:40274677
+**Author:** Sergio Abreo Alvarez, ID: 40274677
 **Date:** February 2025
 **Page URL:** https://pergioa.github.io/
 
@@ -62,7 +62,7 @@ For this project and article, I conducted a series of interviews with persons th
 For privacy reasons, and because the people that were interviewed asked to remain anonymous, I will discuss their opinions and needs as a group and refer to them as "They" in this section of the article.
 
 #### Interviews
-The way that the interviews were handled, I, the "researcher" for this project and product, asked a set of simple questions when it comes to the user interface of the application and the user interactions.
+For the interviews, I, the "researcher" for this project and product, asked a set of simple questions when it comes to the user interface of the application and the user interactions.
 
 My main questions were the following:
 
@@ -101,7 +101,7 @@ Journal of Managed Care & Specialty Pharmacy Volume 26, Number 4
 URL: https://www.jmcp.org/doi/10.18553/jmcp.2020.26.4.550
 DOI: 10.18553/jmcp.2020.26.4.550
 
-Both of those articles explore the benefits of having a companion app to set reminders for medication. While they both express in their own way the need for further research, they did conclude that there is credible evidence that the use of a companion app such as the one for this mini-project has a meaningful impact on a user's ability to adhere to their medication in the long term.
+Both of those articles explore the benefits of having a companion app to set reminders for medication. While they both express in their own way the need for further research, they did conclude that there is credible evidence that the use of a companion app such as the one for this mini-project has a meaningful impact on a user's ability to adhere to their medication schedule in the long term.
 
 Through the research that I conducted regarding existing articles on this matter, I did come across a few more that for the needs of this article would not necessarily add more relevant information than the above-mentioned ones. However, I did see a recurring theme where they asked the same question multiple times. What are the features of a companion app that make it so users take their medication regularly at the right time? They would also ask a follow-up question along the lines of, what new features could be added to the optimal health companion app?
 
@@ -117,8 +117,6 @@ Following the interviews and secondary research, I have the following key findin
 | No dedicated page for event type | Users want to have all relevant information on the same page | No need for dedicated pages for each event type |
 
 ## 2. User Personas
-
-PLACE HOLDER TO TEST LAYOUT OF THE PAGE
 
 ### Persona 1: Maria Santos
 
@@ -145,7 +143,7 @@ PLACE HOLDER TO TEST LAYOUT OF THE PAGE
 - Coordinating appointments across multiple specialists (endocrinologist, cardiologist, family doctor) is confusing and she has double-booked in the past
 - Apps she has tried before required too much setup and had cluttered interfaces that overwhelmed her
 
-**Quote:** *"I just want something simple that reminds me to take my pills and tells me when my next appointment is, I don't need all the bells and whistles."*
+**Quote:** *"I just want something simple that reminds me to take my pills and tells me when my next appointment is. I don't need all the bells and whistles."*
 
 ### Persona 2: David Chen
 
@@ -229,7 +227,7 @@ PLACE HOLDER TO TEST LAYOUT OF THE PAGE
 
 *Description: On this page the user can see all their events for the day, go to settings, or make a new event*
 
-Later on, the prototype this page had to also include calendar view button and a button to go back to the home page. The button for the event creation was moved on top of the navigation bar and made larger with meaningful text that lets the user know what the button does to accomodate for users with lower familiarity with technologie.
+Later on, the prototype for this page had to also include a calendar view button and a button to go back to the home page. The button for the event creation was moved on top of the navigation bar and made larger with meaningful text that lets the user know what the button does to accommodate users with lower familiarity with technology.
 
 #### Appointment Scheduling Screen
 
@@ -238,7 +236,7 @@ Later on, the prototype this page had to also include calendar view button and a
 
 *Description: On this page the user can make a new event for an appointment*
 
-Later on, the prototype for this page was revised to have simpler feilds for elderly users to be able to use it without help. The save buttom was also made as big as possible for the user to be able to see it right away. The button also has different styling for when it can be used or not.
+Later on, the prototype for this page was revised to have simpler fields for elderly users to be able to use it without help. The save button was also made as big as possible for the user to be able to see it right away. The button also has different styling for when it can be used or not.
 
 #### Medication Scheduling Screen
 
@@ -247,18 +245,18 @@ Later on, the prototype for this page was revised to have simpler feilds for eld
 
 *Description: On this page the user can make a new event for a medication*
 
-This page had the same changes done than the one for appointment creation for the same reasons.
+This page had the same changes done as the one for appointment creation for the same reasons.
 
 
 #### Additional Screens
 
 <img class="wireframe" src="assets/images/wireframes/calendar.png" alt="Calendar view">
 
-*Description: On this page the user can view events based on a given date. This was added based on feedback that will be talked about more in depth in a later section*
+*Description: On this page the user can view events based on a given date. This was added based on feedback that will be discussed in more depth in a later section*
 
-*What changed and why:* Additionally, a few more changes were done in order to make the app easier to use for all kinds of users. The specifics will be talked about in depth in a later section.
+*What changed and why:* Additionally, a few more changes were done in order to make the app easier to use for all kinds of users. The specifics will be discussed in depth in a later section.
 
-The main changes are related to the size and styling of buttons and animations for dynamic elements. More pages where added based on user feedback, no wirframes were done since there was a prototype already made with a better UI design that was well defined.
+The main changes are related to the size and styling of buttons and animations for dynamic elements. More pages were added based on user feedback, no wireframes were done since there was a prototype already made with a better UI design that was well defined.
 
 
 ## 5. Prototype
@@ -286,7 +284,7 @@ The main changes are related to the size and styling of buttons and animations f
 
 *Description: This version groups the events into 2 sections, completed and not completed. The completed events also have a different styling to further set them apart*
 
-#### Create medicament event
+#### Create medication event
 <img class="prototype" src="assets/images/prototypes/medication.png" alt="medication">
 
 *Description: This page saw small key changes over the course of this case study. Animations were added for the dynamic elements and the create button had its styling updated*
@@ -318,15 +316,15 @@ The main changes are related to the size and styling of buttons and animations f
 
 **Angular prototype repo link:** 
 
-The prototype for this UI allows the reader to go through how the app would behave and lets ther user go through the main flows that are explained in the next section.
-The web app is mainly built for mobile devices so it is adviced that the reader goes through the README.md in order to be able to try it out on a mobile device in order to be able to see the page displayed in the same way as the pictures above.
+The prototype for this UI allows the reader to go through how the app would behave and lets the user go through the main flows that are explained in the next section.
+The web app is mainly built for mobile devices so it is advised that the reader goes through the README.md in order to be able to try it out on a mobile device in order to be able to see the page displayed in the same way as the pictures above.
 
 - [Repo to interactive prototype](https://github.com/pergioa/UI-MockUp-SOEN357)
 
 
 ### User Flow
 
-The prototype demonstrates two primary user flows that represent the core functionality of the application: creating a medication event and responding to a reminder. Then there is a flow realted to marking an event as done be it mecidation or apointement, a flow related to viewing the events on the calendar view and the flow to modify events by updating their information details or deleting the event.
+The prototype demonstrates two primary user flows that represent the core functionality of the application: creating a medication event and responding to a reminder. Then there is a flow related to marking an event as done be it medication or appointment, a flow related to viewing the events on the calendar view and the flow to modify events by updating their information details or deleting the event.
 
 **Flow 1: First-Time Setup and Medication Event Creation**
 
@@ -360,23 +358,23 @@ The prototype demonstrates two primary user flows that represent the core functi
 1. User receives an alert at the scheduled reminder time
 2. User taps the alert to acknowledge it, then taps on the current event
 3. A large high-contrast "Mark as Attended" button is displayed prominently at the center of the screen
-4. User taps the button to confirm that he has attended his appointment
+4. User taps the button to confirm that they have attended their appointment
 5. The app records the confirmation. The user then manually goes back to the main menu using the "back arrow" button
 
 **Flow 4: Calendar view**
 
-1. User taps on the calendar icon on the navigation bar at the botton
+1. User taps on the calendar icon on the navigation bar at the bottom
 2. User is taken to the calendar view set to the current day
-3. User can see the calendar month and all the events of the given day that he's chosen to look at
+3. User can see the calendar month and all the events of the given day that they've chosen to look at
 4. Events for past days are set to either taken or not depending on what the user had done on any given day
-5. Events for futue days are set to upcoming since the could not have been marked as completed ahead or time
+5. Events for future days are set to upcoming since they could not have been marked as completed ahead of time
 
 **Flow 5: Event details**
 
 1. User taps on any of the events in either the home page or calendar view
-2. User is taken to the the event details page where he can see all related information to the event
+2. User is taken to the event details page where they can see all related information about the event
 3. User can tap on the edit button on the top right to edit the event details
-4. User can tap on the delte event button to delte the event 
+4. User can tap on the delete event button to delete the event
 5. User can mark the event as completed 
 
 
@@ -406,13 +404,13 @@ The prototype demonstrates two primary user flows that represent the core functi
 
 ### Feedback Collection Method
 
-Feedback was collected as the users used the app. Before the user started going over the actions I had asked them to verbalize all their taughts as they use the app. Each session lasted about 20 minutes. After completing all tasks, participants filled out a short post-task questionaire where they would rate the app on a few charactersitics on a scale from 1 to 5. 1 being not satisfied and 5 being very satisfied with a neutral grading for 3. The questions where the following:
+Feedback was collected as the users used the app. Before the user started going over the actions I had asked them to verbalize all their thoughts as they use the app. Each session lasted about 20 minutes. After completing all tasks, participants filled out a short post-task questionnaire where they would rate the app on a few characteristics on a scale from 1 to 5. 1 being not satisfied and 5 being very satisfied with a neutral grading for 3. The questions were the following:
 
 1. How would you rate your overall experience?
 2. What did you find the most intuitive and how would you grade its implementation?
 3. What did you find the most confusing and how would you grade its implementation?
 
-During each session I noted down all the comments that the users had made that made me realize that the UI could we reworked to streamline the fows that I was evaluating in terms of user experience.
+During each session I noted down all the comments that the users had made that made me realize that the UI could be reworked to streamline the flows that I was evaluating in terms of user experience.
 
 ### Key Findings & Iterations
 
@@ -439,29 +437,29 @@ The following table shows the key issues that I found during the user test runs.
 
 ### What I Learned
 
-This project rienforced how important it is to design an application with the target demographic in mind in order to truly meet their needs when it comes to the features implement on the application. For instance in the case of users that would be aligened with my personas such as Maria and Chris where the UI has to be simple to understand and streamline all the interactions by giving them solid visual helpers such as the icons that represent real life objects so they can understand what they are doing or what to tap based on what they need.
+This project reinforced how important it is to design an application with the target demographic in mind in order to truly meet their needs when it comes to the features implemented in the application. For instance in the case of users that would be aligned with my personas such as Maria and Chris where the UI has to be simple to understand and streamline all the interactions by giving them solid visual helpers such as the icons that represent real life objects so they can understand what they are doing or what to tap based on what they need.
 
-The usability testing was also a very eye openeing first experience because it further rienforced that I need to ask the real users what they want and need, even if I had though that from my research I had solid personnas there were a few things that I had missed for instance what I would deem as obvious for other people who know less about technologie in genearl might be puzzeling. Having asked real users to test drive the app that I had helped me fine tune the experience more towards the user than to my assumptions.
+The usability testing was also a very eye-opening first experience because it further reinforced that I need to ask the real users what they want and need. Even if I had thought that from my research I had solid personas, there were a few things that I had missed. For instance, what I would deem as obvious for other people who know less about technology in general might be puzzling. Having real users test-drive the app helped me fine-tune the experience more towards the user than to my assumptions.
 
 I also learned more about the pitfall of these kind of applications and what helps them be successful by reading research articles on this subject.
 
 ### Challenges Encountered
 
-1. **Designing for a wide range of tech comfort levels:** The personas ranged from David, who is highly comfortable with technology, to Chris, who can barely navigate a phone. Balancing the needs of both without making the app feel too basic for one group or too complex for the other was difficult. I manged to strike a perfect balancy by trying to follow a "Less is more" approch. The UI is minimal and straight to the point, each button has a clear action without compromising in terms of functonality. This makes it so that an experience user might appreciate the simplicity in terms of the app is quick and responsive, while an user who is less comfortable with a pohne is able to user the app without having to ask for help from another person.
+1. **Designing for a wide range of tech comfort levels:** The personas ranged from David, who is highly comfortable with technology, to Chris, who can barely navigate a phone. Balancing the needs of both without making the app feel too basic for one group or too complex for the other was difficult. I managed to strike a perfect balance by trying to follow a "Less is more" approach. The UI is minimal and straight to the point, each button has a clear action without compromising in terms of functionality. This makes it so that an experienced user might appreciate the simplicity in terms of the app being quick and responsive, while a user who is less comfortable with a phone is able to use the app without having to ask for help from another person.
 
-2. **Keeping the event creation flow on a single page:** The research findings indicated that users did not want separate pages for different event types, but fitting medication and appointment fields on the same page without clutter was a challenge. I addressed this by using dynamic forms or fields that would appear or based on the user inputs.
+2. **Keeping the event creation flow on a single page:** The research findings indicated that users did not want separate pages for different event types, but fitting medication and appointment fields on the same page without clutter was a challenge. I addressed this by using dynamic forms with fields that would appear or disappear based on the user inputs.
 
-3. **Making reminders hard to miss without being intrusive:** Chris's persona highlighted that on low-motivation days, a notification can easily be dismissed and forgotten. At the same time, overly aggressive reminders could frustrate users like David who are already managing many notifications. I resolved this by making the completion button the center peice of the page. When the user taps on a event their gaze will see the completion button first since it's centered on the screen.
+3. **Making reminders hard to miss without being intrusive:** Chris's persona highlighted that on low-motivation days, a notification can easily be dismissed and forgotten. At the same time, overly aggressive reminders could frustrate users like David who are already managing many notifications. I resolved this by making the completion button the centerpiece of the page. When the user taps on an event their gaze will see the completion button first since it's centered on the screen.
 
 ### What I Would Do Differently
 
-If I were to start this project over, I would recruit a larger and more diverse group of participants for both the initial interviews and the usability testing. Five participants provided valuable insights, but a larger sample would have increased confidence in the findings and potentially revealed edge cases that were missed. If I had more time and less coureses and projects to keep up with I would then make more usability test runs to make sure that I iron out my revisions and manage to fine tune the experinece as much as possible to cater to my target audience.
+If I were to start this project over, I would recruit a larger and more diverse group of participants for both the initial interviews and the usability testing. Five participants provided valuable insights, but a larger sample would have increased confidence in the findings and potentially revealed edge cases that were missed. If I had more time and fewer courses and projects to keep up with I would then make more usability test runs to make sure that I iron out my revisions and manage to fine-tune the experience as much as possible to cater to my target audience.
 
 Additionally, I would explore accessibility features more thoroughly from the start. While the current design accounts for low tech comfort through visual simplicity and large interactive elements, I did not deeply investigate accommodations for users with visual impairments, motor difficulties, or other accessibility needs beyond cognitive load. Integrating accessibility testing tools and consulting established guidelines such as WCAG earlier in the process would have resulted in a more inclusive design.
 
 ### Conclusion
 
-The Health Companion Super App case study demonstrates that a user-centered design process, grounded in real interviews, persona development, and iterative usability testing, leads to a product that  addresses the needs of its target audience rather than the developers assumptions of it. By prioritizing simplicity, minimizing setup, and using visual cues to guide interaction, the app is positioned to help individuals with chronic conditions stay on top of their medications and appointments without adding complexity to their daily lives.
+The Health Companion Super App case study demonstrates that a user-centered design process, grounded in real interviews, persona development, and iterative usability testing, leads to a product that addresses the needs of its target audience rather than the developers assumptions of it. By prioritizing simplicity, minimizing setup, and using visual cues to guide interaction, the app is positioned to help individuals with chronic conditions stay on top of their medications and appointments without adding complexity to their daily lives.
 
 The research confirmed that health companion apps have a meaningful impact on medication adherence and the design decisions made throughout this project were directly informed by what users expressed they needed. While there is room for further refinement, particularly around accessibility and more extensive usability testing, the foundation built through this UX/UI process provides a strong starting point for a product that could make a real difference in people's health outcomes.
 
