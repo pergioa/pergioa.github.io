@@ -402,13 +402,21 @@ The prototype demonstrates two primary user flows that represent the core functi
 - Task completion rate
 - Time on task
 - Error rate
-- User satisfaction (SUS score)
+- User satisfaction
 
 ### Feedback Collection Method
 
-Feedback was collected using a think-aloud protocol where participants were asked to verbalize their thoughts as they navigated the prototype. Each session lasted approximately 20 minutes. After completing all tasks, participants filled out a short post-task questionnaire based on the System Usability Scale (SUS) and were asked three open-ended questions about their overall experience, what they found most intuitive, and what they found most confusing. I took notes during each session and recorded key observations related to hesitation points, errors, and moments of satisfaction.
+Feedback was collected as the users used the app. Before the user started going over the actions I had asked them to verbalize all their taughts as they use the app. Each session lasted about 20 minutes. After completing all tasks, participants filled out a short post-task questionaire where they would rate the app on a few charactersitics on a scale from 1 to 5. 1 being not satisfied and 5 being very satisfied with a neutral grading for 3. The questions where the following:
+
+1. How would you rate your overall experience?
+2. What did you find the most intuitive and how would you grade its implementation?
+3. What did you find the most confusing and how would you grade its implementation?
+
+During each session I noted down all the comments that the users had made that made me realize that the UI could we reworked to streamline the fows that I was evaluating in terms of user experience.
 
 ### Key Findings & Iterations
+
+The following table shows the key issues that I found during the user test runs. I've included the severity in terms of low, medium or high to describe how much it impacted the overall user experience and what solution I came up with for each problem.
 
 | Issue Found | Severity | Solution Implemented |
 |-------------|----------|---------------------|
