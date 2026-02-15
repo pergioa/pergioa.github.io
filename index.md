@@ -451,10 +451,9 @@ Not all iterations will be shown on this article due to the amount of images tha
 
 *The medication and appointment creation pages saw small key changes over the course of this case study. Animations were added for the dynamic elements and the create button had its styling updated. The appointment details page had Copy, Call, Map, and Email buttons added to allow the user to quickly perform each action. The medication details, settings, and first usage pages saw no major changes.*
 
-**Angular prototype repo link:** 
+**Angular prototype** 
 
-The prototype allows the reader to experience how the app would behave and walk through the main flows explained in the next section.
-The web app is mainly built for mobile devices, so it is advised that the reader consult the README.md to try it out on a mobile device and see the pages displayed in the same way as the pictures above.
+The prototype allows the reader to experience how the app would behave and walk through the main flows explained in the next section. The web app is mainly built for mobile devices, so it is advised that the reader consult the README.md to try it out on a mobile device and see the pages displayed in the same way as the pictures above.
 
 - [Repo to interactive prototype](https://github.com/pergioa/UI-MockUp-SOEN357)
 
