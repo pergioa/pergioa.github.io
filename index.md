@@ -246,36 +246,6 @@ Following the interviews and secondary research, I have the following key findin
 
 <img class="journey-map" src="assets/images/journey-maps/journey-map.png" alt="User Journey Map">
 
-### Journey Stages
-
-#### Stage 1: Awareness
-- **Actions:** The user learns about the app through a doctor's recommendation, a family member's suggestion, or an app store search after missing a dose or forgetting an appointment
-- **Thoughts:** "I need something to help me stay on top of my medications and appointments, but will this app be easy enough for me to use?"
-- **Emotions:** Frustrated with current methods of tracking health tasks, but hopeful that a solution exists
-- **Pain Points:** Users like Maria rely on handwritten notes that get lost, David feels overwhelmed juggling multiple productivity tools, and Chris lacks the motivation and tech skills to search for a solution on his own
-- **Opportunities:** Clear and simple app store descriptions, accessibility-focused marketing, and a reassuring first impression that signals ease of use
-
-#### Stage 2: Onboarding
-- **Actions:** The user downloads the app, opens it for the first time, and is guided through a minimal setup process where they configure their global reminder preferences
-- **Thoughts:** "This setup is quick, I only need to set my reminder preferences once and I am ready to go"
-- **Emotions:** Relieved that the setup requires very little effort, cautiously optimistic about using the app going forward
-- **Pain Points:** Users with low tech comfort like Maria and Chris may hesitate at any screen that feels unfamiliar or asks for too much information upfront, while David may want to ensure the app integrates well with his existing routine
-- **Opportunities:** A one-screen onboarding flow with clear visual cues, large input fields, and a brief walkthrough that builds confidence without overwhelming the user
-
-#### Stage 3: Daily Use
-- **Actions:** The user receives a reminder notification, opens the app, confirms they took their medication, and occasionally checks upcoming appointments on the main screen
-- **Thoughts:** "The reminder went off right on time, let me mark my medication as taken so I can move on with my day"
-- **Emotions:** Confident and in control of their health routine, with a sense of accomplishment after confirming each dose
-- **Pain Points:** Chris may still struggle with motivation on difficult days and could dismiss a notification without acting on it, Maria may find it hard to respond during busy school hours, and David may need the reminder to cut through the noise of his many other app notifications
-- **Opportunities:** Persistent or escalating reminders that are hard to miss, a simple one-tap confirmation to mark a dose as taken, and a clear visual summary on the main screen that reinforces progress
-
-#### Stage 4: Appointment Booking
-- **Actions:** The user navigates to the event creation page from the main screen, selects the appointment event type, fills in the essential details using visual selectors, and saves the event
-- **Thoughts:** "I can see all my upcoming appointments in one place now, no more double-booking or forgetting which specialist I am seeing next"
-- **Emotions:** Organized and reassured that their appointments are tracked, less anxious about managing multiple healthcare providers
-- **Pain Points:** Maria has double-booked specialists in the past due to poor coordination, Chris needs the input fields to be straightforward and visually guided so he can complete them independently, and David wants the process to be efficient and not require redundant data entry
-- **Opportunities:** Visual selectors and skeuomorphic elements that simplify the input process, automatic conflict detection to prevent double-booking, and a unified calendar view that displays both medication and appointment events together
-
 ## 4. Storyboard
 
 The following storyboard walks through how Maria Santos, one of our primary personas, would discover and use the Health Companion App in her daily life. Due to a severe lack of artistic capabilities, I opted for writing out the various scenes of my storyboard instead of attempting to illustrate them and failing miserably.
