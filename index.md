@@ -338,16 +338,6 @@ The following storyboard walks through how Maria Santos, one of our primary pers
 | **Design Decision** | Settings are kept minimal, only the options that matter for the core experience |
 | **Emotion** | Comfortable, the app adapts to her needs without requiring technical knowledge |
 
-### Key Design Themes
-
-| Theme | Description |
-|-------|-------------|
-| **Simplicity first** | Designed for users with low tech comfort (personas like Maria & Chris) |
-| **Minimal cognitive load** | Events grouped by completion status for easy scanning |
-| **Progressive disclosure** | Dynamic forms show only relevant fields based on event type |
-| **Clear feedback** | Visual distinction between pending and completed events |
-| **Accessible interactions** | Large buttons, high-contrast colors, straightforward navigation |
-
 ## 5. Wireframes & Sketches
 
 ### Sketckes
