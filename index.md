@@ -358,7 +358,7 @@ At first I had a very rough idea of how the app should display information or as
 
 ### Low-Fidelity Wireframes
 
-It is important to note that I will only include the last set of wireframes made in order to keep the article as short as possible. Later on the use of wireframes was neglected and opted for working directly on the prototype, this was done to be able to make improvements on the prototype while being able to better understand what user's wanted while doing the usability testing.
+These are the initial wireframes for each page, if changes were done to a page I did not make a new wireframe for it. After having a first prototype, that was the only artifact that got updates.
 
 <div class="comparison">
   <div class="version">
@@ -462,7 +462,7 @@ The prototype allows the reader to experience how the app would behave and walk 
 
 <img class="journey-map" src="assets/images/user-flowchart.png" alt="User Flow Chart">
 
-The prototype demonstrates two primary user flows that represent the core functionality of the application: creating a medication event and responding to a reminder. Then, there are flows related to event completion, editing event details, deleting events, and performing quick actions related to an event such as calling, sending email, or using the map for directions. 
+The prototype demonstrates two primary user flows that represent the core functionality of the application: creating an event and responding to a reminder. Then, there are flows related to event completion, editing event details, deleting events, and performing quick actions related to an event such as calling, sending email, or using the map for directions. 
 
 ## 7. Usability Testing
 
