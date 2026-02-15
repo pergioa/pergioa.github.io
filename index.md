@@ -34,6 +34,21 @@ title: Health Companion Super App - UX/UI Case Study
 **Date:** February 2025
 **Page URL:** https://pergioa.github.io/
 
+---
+
+### Table of Contents
+
+1. [Project Overview](#project-overview)
+2. [User Research](#1-user-research)
+3. [User Personas](#2-user-personas)
+4. [User Journey Map](#3-user-journey-map)
+5. [Storyboard](#4-storyboard)
+6. [Wireframes](#5-wireframes)
+7. [Prototype](#6-prototype)
+8. [Usability Testing](#7-usability-testing)
+9. [Reflection](#8-reflection)
+10. [Appendix](#appendix)
+
 
 ## Project Overview
 
@@ -217,7 +232,109 @@ Following the interviews and secondary research, I have the following key findin
 - **Pain Points:** Maria has double-booked specialists in the past due to poor coordination, Chris needs the input fields to be straightforward and visually guided so he can complete them independently, and David wants the process to be efficient and not require redundant data entry
 - **Opportunities:** Visual selectors and skeuomorphic elements that simplify the input process, automatic conflict detection to prevent double-booking, and a unified calendar view that displays both medication and appointment events together
 
-## 4. Wireframes
+## 4. Storyboard
+
+The following storyboard walks through how Maria Santos, one of our primary personas, would discover and use the Health Companion App in her daily life. Due to technical a sever lack of artistic capabilities I opted for writting out the various scenes of my storyboard instead of attempting to ilustrated them and failing miserably.
+
+---
+
+### Scene 1: Discovery & Download
+
+| | |
+|---|---|
+| **User** | Maria Santos (54, manages diabetes & hypertension) |
+| **Context** | Maria struggles to remember her multiple daily medications and upcoming doctor appointments |
+| **Action** | She discovers the Health Companion App through a recommendation and downloads it |
+| **Emotion** | Hopeful but cautious, she has been let down by complicated apps before |
+
+---
+
+### Scene 2: Onboarding
+
+| | |
+|---|---|
+| **Trigger** | Maria opens the app for the first time |
+| **Action** | The app greets her with a simple onboarding screen and guides her to set global reminder preferences (notification timing, sound) |
+| **Design Decision** | Minimal setup required, no overwhelming forms or account creation walls |
+| **Emotion** | Relieved that setup is quick and painless |
+
+---
+
+### Scene 3: Creating a Medication Event
+
+| | |
+|---|---|
+| **Trigger** | Maria taps the "Create Event" button on the home screen |
+| **Action** | She selects "Medication" as the event type. A dynamic form appears with fields for medication name, dosage, frequency, time, and reminder settings. She saves the event and returns to the home screen where it now appears in her list |
+| **Design Decision** | Progressive disclosure, the form only shows fields relevant to the selected event type |
+| **Emotion** | Confident, the visual selectors and clear labels make the process intuitive |
+
+---
+
+### Scene 4: Creating an Appointment Event
+
+| | |
+|---|---|
+| **Trigger** | Maria has a doctor visit coming up and taps "Create Event" again |
+| **Action** | She selects "Appointment" as the event type and fills in the doctor name, location, date/time, and reminder preferences. The appointment is saved and visible on both the home screen and calendar view |
+| **Design Decision** | Both event types are created from the same page, no separate navigation needed |
+| **Emotion** | Organized, all her health events are now in one place |
+
+---
+
+### Scene 5: Daily Use, Medication Reminder
+
+| | |
+|---|---|
+| **Trigger** | At the scheduled time, Maria receives a push notification |
+| **Action** | She taps the notification and is taken directly to the medication details page. She reviews the dosage info and taps "Mark as Taken". The event visually moves to the "Completed" group on the home screen |
+| **Design Decision** | Large, high-contrast completion button centered on screen, impossible to miss |
+| **Emotion** | Accomplished, a quick tap and she can move on with her day |
+
+---
+
+### Scene 6: Appointment Reminder
+
+| | |
+|---|---|
+| **Trigger** | The day before her appointment, Maria gets a reminder notification |
+| **Action** | She taps it and sees the appointment details page with quick action buttons (directions, reschedule). After attending, she marks it as "Attended" |
+| **Design Decision** | Quick action buttons reduce the steps needed to prepare for the appointment |
+| **Emotion** | Prepared and in control of her healthcare schedule |
+
+---
+
+### Scene 7: Calendar View
+
+| | |
+|---|---|
+| **Trigger** | Maria taps the calendar icon in the navigation bar |
+| **Action** | She sees her events organized by date. Completed events are visually differentiated (greyed out with checkmarks). She can tap any date to see that day's medications and appointments, and edit or delete events from this view |
+| **Design Decision** | Visual distinction between pending and completed events reduces cognitive load |
+| **Emotion** | Reassured, she can see her full health schedule at a glance |
+
+---
+
+### Scene 8: Settings & Customization
+
+| | |
+|---|---|
+| **Trigger** | Maria visits Settings from the navigation bar |
+| **Action** | She adjusts notification preferences and tweaks reminder timing and display options to match her routine |
+| **Design Decision** | Settings are kept minimal, only the options that matter for the core experience |
+| **Emotion** | Comfortable, the app adapts to her needs without requiring technical knowledge |
+
+### Key Design Themes
+
+| Theme | Description |
+|-------|-------------|
+| **Simplicity first** | Designed for users with low tech comfort (personas like Maria & Chris) |
+| **Minimal cognitive load** | Events grouped by completion status for easy scanning |
+| **Progressive disclosure** | Dynamic forms show only relevant fields based on event type |
+| **Clear feedback** | Visual distinction between pending and completed events |
+| **Accessible interactions** | Large buttons, high-contrast colors, straightforward navigation |
+
+## 5. Wireframes
 
 ### Low-Fidelity Wireframes
 
@@ -259,7 +376,7 @@ This page had the same changes done as the one for appointment creation for the 
 The main changes are related to the size and styling of buttons and animations for dynamic elements. More pages were added based on user feedback, no wireframes were done since there was a prototype already made with a better UI design that was well defined.
 
 
-## 5. Prototype
+## 6. Prototype
 
 ### Interactive Prototype
 
@@ -378,7 +495,7 @@ The prototype demonstrates two primary user flows that represent the core functi
 5. User can mark the event as completed 
 
 
-## 6. Usability Testing
+## 7. Usability Testing
 
 ### Testing Plan
 
@@ -433,7 +550,7 @@ The following table shows the key issues that I found during the user test runs.
 > *"At first I was not sure where to tap to pick the medication, but once I saw the pictures it made sense. The pictures help a lot."* - Participant 5 (age 68, low tech comfort)
 
 
-## 7. Reflection
+## 8. Reflection
 
 ### What I Learned
 
