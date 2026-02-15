@@ -511,15 +511,6 @@ The following table shows the key issues that I found during the user test runs.
 | The confirmation action after a reminder notification was not prominent enough | High | Enlarged the "Mark as Taken" button and changed its color to a high-contrast blue so it stands out immediately upon opening the app |
 | There was no way to see events for following days | Medium | Implemented a calendar view to see events on any given day |
 
-### User Feedback Summary
-
-> *"Once I set it up, I did not have to think about it again. The reminder just showed up and I tapped the big blue button. That is exactly what I need."* - Participant 3 (age 58, low-moderate tech comfort)
-
-> *"I like that I do not have to go through a different screen for medications and appointments. Everything is right there on one page when I create an event."* - Participant 1 (age 35, high tech comfort)
-
-> *"At first I was not sure where to tap to pick the medication, but once I saw the pictures it made sense. The pictures help a lot."* - Participant 5 (age 68, low tech comfort)
-
-
 ## 8. Reflection
 
 ### What I Learned
