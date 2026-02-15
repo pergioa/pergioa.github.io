@@ -24,6 +24,11 @@ title: Health Companion Super App - UX/UI Case Study
     height: 445px;
     width: auto;
   }
+  img.sketch {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+  }
   .comparison {
     display: flex;
     gap: 2rem;
@@ -373,9 +378,17 @@ The following storyboard walks through how Maria Santos, one of our primary pers
 | **Clear feedback** | Visual distinction between pending and completed events |
 | **Accessible interactions** | Large buttons, high-contrast colors, straightforward navigation |
 
-## 5. Wireframes
+## 5. Wireframes & Sketches
+
+### Sketckes
+
+At first I had a very rough idea of how the app should display information or ask for details. the following image shows, the only sketches that I worked with in order to eventually move on to using wireframes once I had determined what I wanted to do on the pages I wanted to implement.
+
+<img class="sketch" src="assets/images/sketches/pagesSketches.png" alt="Sketches">
 
 ### Low-Fidelity Wireframes
+
+It is important to note that I will only include the last set of wireframes made in order to keep the article as short as possible. Later on the use of wireframes was neglected and opted for working directly on the prototype, this was done to be able to make improvements on the prototype while being able to better understand what user's wanted while doing the usability testing.
 
 <div class="comparison">
   <div class="version">
@@ -404,6 +417,8 @@ During the prototyping phase, several changes were made to these wireframes. The
 ## 6. Prototype
 
 ### Interactive Prototype
+
+Not all iterations will be shown on this article due to the amount of images that it would required, Instead I will only include the set of the lasts Iterations of the prototype that had small changes towards the end.
 
 #### Home Page
 
@@ -475,6 +490,8 @@ The web app is mainly built for mobile devices, so it is advised that the reader
 
 
 ### User Flow
+
+<img class="journey-map" src="assets/images/user-flowchart.png" alt="User Flow Chart">
 
 The prototype demonstrates two primary user flows that represent the core functionality of the application: creating a medication event and responding to a reminder. There is also a flow related to marking an event as done, be it medication or appointment, a flow for viewing events in the calendar view, and a flow to modify events by updating their details or deleting them.
 
