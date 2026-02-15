@@ -352,7 +352,7 @@ The following storyboard walks through how Maria Santos, one of our primary pers
 
 ### Sketckes
 
-At first I had a very rough idea of how the app should display information or ask for details. the following image shows, the only sketches that I worked with in order to eventually move on to using wireframes once I had determined what I wanted to do on the pages I wanted to implement.
+At first I had a very rough idea of how the app should display information or ask for details. The following image shows the only sketches made before opting for wireframes once the concept of the design became clearer to myself.
 
 <img class="sketch" src="assets/images/sketches/pagesSketches.png" alt="Sketches">
 
@@ -463,59 +463,7 @@ The web app is mainly built for mobile devices, so it is advised that the reader
 
 <img class="journey-map" src="assets/images/user-flowchart.png" alt="User Flow Chart">
 
-The prototype demonstrates two primary user flows that represent the core functionality of the application: creating a medication event and responding to a reminder. There is also a flow related to marking an event as done, be it medication or appointment, a flow for viewing events in the calendar view, and a flow to modify events by updating their details or deleting them.
-
-**Flow 1: First-Time Setup and Medication Event Creation**
-
-1. User opens the app for the first time and is presented with the onboarding screen
-2. User sets their global reminder preference (e.g., 15 minutes before each event) and confirms
-3. User lands on the home screen, which displays a sample event list and a prominent "Create Event" button
-4. User taps "Create Event" and is taken to the event creation page
-5. User selects the medication event type using the visual selector (pill icon)
-6. The conditional input fields for medication appear: medication name, dosage, frequency, and start date
-7. User fills in the required fields and taps "Save"
-8. User is returned to the home screen where the new medication event now appears in the event list
-
-**Flow 2: Appointment Event Creation**
-
-1. User taps "Create Event" from the home screen
-2. User selects the appointment event type using the visual selector (calendar icon)
-3. The conditional input fields for appointments appear: doctor name, specialty, date, time, and location
-4. User fills in the required fields and taps "Save"
-5. User is returned to the home screen where both medication and appointment events are now visible in a unified list
-
-**Flow 3-a: Responding to a Medication Reminder**
-
-1. User receives an alert at the scheduled reminder time
-2. User taps the alert to acknowledge it, then taps on the current event
-3. A large high-contrast "Mark as Taken" button is displayed prominently at the center of the screen
-4. User taps the button to confirm the medication was taken
-5. The app records the confirmation. The user then manually goes back to the main menu using the "back arrow" button
-
-**Flow 3-b: Responding to an Appointment Reminder**
-
-1. User receives an alert at the scheduled reminder time
-2. User taps the alert to acknowledge it, then taps on the current event
-3. A large high-contrast "Mark as Attended" button is displayed prominently at the center of the screen
-4. User taps the button to confirm that they have attended their appointment
-5. The app records the confirmation. The user then manually goes back to the main menu using the "back arrow" button
-
-**Flow 4: Calendar View**
-
-1. User taps on the calendar icon on the navigation bar at the bottom
-2. User is taken to the calendar view set to the current day
-3. User can see the calendar month and all the events of the given day that they've chosen to look at
-4. Events for past days are set to either taken or not depending on what the user did on that day
-5. Events for future days are set to upcoming since they could not have been marked as completed ahead of time
-
-**Flow 5: Event Details**
-
-1. User taps on any of the events in either the home page or calendar view
-2. User is taken to the event details page where they can see all related information about the event
-3. User can tap on the edit button on the top right to edit the event details
-4. User can tap on the delete event button to delete the event
-5. User can mark the event as completed 
-
+The prototype demonstrates two primary user flows that represent the core functionality of the application: creating a medication event and responding to a reminder. There is also a flow related to marking an event as done, be it medication or appointment, a flow for viewing events in the calendar view, and a flow to modify events by updating their details or deleting them. 
 
 ## 7. Usability Testing
 
