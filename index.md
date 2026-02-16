@@ -69,7 +69,7 @@ title: Health Companion Super App - UX/UI Case Study
 1. [Project Overview](#project-overview)
 2. [User Research](#1-user-research)
 3. [User Personas](#2-user-personas)
-4. [User Journey Map](#3-user-journey-map)
+4. [User Journey Maps](#3-user-journey-maps)
 5. [Storyboard](#4-storyboard)
 6. [Wireframes](#5-wireframes)
 7. [Prototype](#6-prototype)
@@ -115,6 +115,10 @@ My main questions were the following:
 4. What details should be required for each event type?
 5. Should the app have extensive setting customization? Or should it use the accessibility settings taken from the device?
 6. What accessibility accommodations would they like to see in the application?
+7. Should there be an account system or a system to upload your information to the cloud to sync across multiple devices?
+8. Should the app allow users to perform other actions not related to medication or appointments?
+9. Are there any quality of life features that would make sense for you to be on this app related to tracking your medicament and appointments?
+10. How would you like for the events to be handled? should there be recurring events or should they be manually set up the day before?
 
 Across the board, participants had a consistent set of answers for each question.
 
@@ -126,6 +130,9 @@ The needs and wants that I could take away from my interviews are the following:
 4. The required details are only the essentials related to each kind of event.
 5. The app should require very little to no setup.
 6. The users want the input fields to be easy to understand and to fill out.
+7. The users want their health data to stay on their device and not be shared with third parties or require cloud accounts.
+8. The users want to have the required information on the events to be able to reach the medical office, and look up directions to find their way to the appointment.
+9. The users want to be able to log notes alongside each event (e.g., side effects experienced, questions for the doctor) for personal reference.
 
 #### Secondary Research
 To get a better picture of the utility and need for an application of this nature, I also took the liberty of looking up existing studies related to the impact of health companion applications for individuals who need to take medications on a regular basis.
@@ -242,9 +249,19 @@ Following the interviews and secondary research, I have the following key findin
 
 **Quote:** *"Since my wife died, I have struggled with depression. It has been difficult for me to keep up with my medication since most days I don't feel like doing anything and want to stay in bed."*
 
-## 3. User Journey Map
+## 3. User Journey Maps
 
-<img class="journey-map" src="assets/images/journey-maps/journey-map.png" alt="User Journey Map">
+### Maria Santos – Journey Map
+
+<img class="journey-map" src="assets/images/journey-maps/journey-map-maria.png" alt="Maria Santos Journey Map">
+
+### David Chen – Journey Map
+
+<img class="journey-map" src="assets/images/journey-maps/journey-map-david.png" alt="David Chen Journey Map">
+
+### Chris Redfield – Journey Map
+
+<img class="journey-map" src="assets/images/journey-maps/journey-map-chris.png" alt="Chris Redfield Journey Map">
 
 ## 4. Storyboard
 
